@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Trabalho 2 - TP1: C√≥digo-Fonte de solucaoCpp/projetoFinalTP1/include/GerenteBD.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Trabalho 2 - TP1
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>P√°gina&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Estruturas&#160;de&#160;dados</span></a></li>
+      <li class="current"><a href="files.html"><span>Ficheiros</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Localizar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;ficheiros</span></a></li>
+      <li><a href="globals.html"><span>Globais</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_7282b79a4a8cf4516df196492ab4e3a6.html">solucaoCpp</a></li><li class="navelem"><a class="el" href="dir_972ef27e78778d659bff27f3a164a62e.html">projetoFinalTP1</a></li><li class="navelem"><a class="el" href="dir_591107efbd2e02501ebb91fa5ec34584.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">GerenteBD.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="GerenteBD_8h.html">Ir para a documenta√ß√£o deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef GERENTE_BD </span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define GERENTE_BD</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Usuario_8h.html">Usuario.h</a>&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">using</span> std::cout;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">using</span> std::endl;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">using</span> std::string;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">using</span> std::ofstream;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">using</span> std::ifstream;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">using</span> std::getline;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">using</span> std::stringstream;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">using</span> std::map;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classGerenteBD.html">   27</a></span>&#160;<span class="keyword">class </span><a class="code" href="classGerenteBD.html">GerenteBD</a></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="classGerenteBD.html#a4924b8cdf021d04a8a5afd3a3c436c64">GerenteBD</a>();</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classGerenteBD.html#adeea4af90d8f017ba29ee49a4c987d80">~GerenteBD</a>();</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    </div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="comment">//CRUD Pessoa</span></div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classGerenteBD.html#a63f7f9bfe46b46806b21d5df2a8f34f0">InsereUsuario</a>(<a class="code" href="classUsuario.html">Usuario</a> &amp;usuario);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keyword">static</span> <a class="code" href="classUsuario.html">Usuario</a> <a class="code" href="classGerenteBD.html#aee848e57a172b20998ada945c2d8f66a">BuscaUsuario</a>(<span class="keywordtype">string</span> matricula);</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    </div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classGerenteBD.html#a5beefe7b8eea2dd60b2846cb43b94e22">AtualizaUsuario</a>();</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classGerenteBD.html#a938eebbcf539e0900c4cfd77cfc91be5">RemoveUsuario</a>();</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classGerenteBD.html#ae5b9e1254a70db28a14118a9cb7bbabb">ExisteUsuario</a>(<span class="keywordtype">string</span> matricula);</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    </div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classGerenteBD.html#a83307478b300f18ad530bbae7a21c5cb">ChecaUsuario</a>(<span class="keywordtype">string</span> matricula, <span class="keywordtype">string</span> senha);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="classGerenteBD.html#ab981e470288daaba3b2983c8e22c3cc5">   73</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">string</span> <a class="code" href="classGerenteBD.html#ab981e470288daaba3b2983c8e22c3cc5">dbName</a>;</div><div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="classGerenteBD.html#a608870478a41059b7cc2d41394aa9fde">   74</a></span>&#160;    <span class="keyword">static</span> map&lt;string, string&gt; <a class="code" href="classGerenteBD.html#a608870478a41059b7cc2d41394aa9fde">dadosUsuarios</a>;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;};</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classGerenteBD_html_a5beefe7b8eea2dd60b2846cb43b94e22"><div class="ttname"><a href="classGerenteBD.html#a5beefe7b8eea2dd60b2846cb43b94e22">GerenteBD::AtualizaUsuario</a></div><div class="ttdeci">void AtualizaUsuario()</div><div class="ttdoc">Atualiza um usu·rio no banco de dados. </div><div class="ttdef"><b>Definition:</b> GerenteBD.cpp:56</div></div>
+<div class="ttc" id="classGerenteBD_html_aee848e57a172b20998ada945c2d8f66a"><div class="ttname"><a href="classGerenteBD.html#aee848e57a172b20998ada945c2d8f66a">GerenteBD::BuscaUsuario</a></div><div class="ttdeci">static Usuario BuscaUsuario(string matricula)</div><div class="ttdoc">Busca um usu·rio no banco de dados. </div><div class="ttdef"><b>Definition:</b> GerenteBD.cpp:62</div></div>
+<div class="ttc" id="classGerenteBD_html_a83307478b300f18ad530bbae7a21c5cb"><div class="ttname"><a href="classGerenteBD.html#a83307478b300f18ad530bbae7a21c5cb">GerenteBD::ChecaUsuario</a></div><div class="ttdeci">static bool ChecaUsuario(string matricula, string senha)</div><div class="ttdoc">Verifica se a matricula confere com a senha. </div><div class="ttdef"><b>Definition:</b> GerenteBD.cpp:85</div></div>
+<div class="ttc" id="classGerenteBD_html_ae5b9e1254a70db28a14118a9cb7bbabb"><div class="ttname"><a href="classGerenteBD.html#ae5b9e1254a70db28a14118a9cb7bbabb">GerenteBD::ExisteUsuario</a></div><div class="ttdeci">static bool ExisteUsuario(string matricula)</div><div class="ttdoc">Verifica a existencia de usuario. </div><div class="ttdef"><b>Definition:</b> GerenteBD.cpp:79</div></div>
+<div class="ttc" id="Usuario_8h_html"><div class="ttname"><a href="Usuario_8h.html">Usuario.h</a></div></div>
+<div class="ttc" id="classGerenteBD_html_adeea4af90d8f017ba29ee49a4c987d80"><div class="ttname"><a href="classGerenteBD.html#adeea4af90d8f017ba29ee49a4c987d80">GerenteBD::~GerenteBD</a></div><div class="ttdeci">virtual ~GerenteBD()</div><div class="ttdef"><b>Definition:</b> GerenteBD.cpp:42</div></div>
+<div class="ttc" id="classGerenteBD_html_a4924b8cdf021d04a8a5afd3a3c436c64"><div class="ttname"><a href="classGerenteBD.html#a4924b8cdf021d04a8a5afd3a3c436c64">GerenteBD::GerenteBD</a></div><div class="ttdeci">GerenteBD()</div><div class="ttdef"><b>Definition:</b> GerenteBD.cpp:13</div></div>
+<div class="ttc" id="classGerenteBD_html_a63f7f9bfe46b46806b21d5df2a8f34f0"><div class="ttname"><a href="classGerenteBD.html#a63f7f9bfe46b46806b21d5df2a8f34f0">GerenteBD::InsereUsuario</a></div><div class="ttdeci">static void InsereUsuario(Usuario &amp;usuario)</div><div class="ttdoc">Insere um novo usu·rio no banco de dados. </div><div class="ttdef"><b>Definition:</b> GerenteBD.cpp:47</div></div>
+<div class="ttc" id="classGerenteBD_html_a608870478a41059b7cc2d41394aa9fde"><div class="ttname"><a href="classGerenteBD.html#a608870478a41059b7cc2d41394aa9fde">GerenteBD::dadosUsuarios</a></div><div class="ttdeci">static map&lt; string, string &gt; dadosUsuarios</div><div class="ttdef"><b>Definition:</b> GerenteBD.h:74</div></div>
+<div class="ttc" id="classUsuario_html"><div class="ttname"><a href="classUsuario.html">Usuario</a></div><div class="ttdoc">Representa a inst‚ncia do usuario que utiliza o sistema. </div><div class="ttdef"><b>Definition:</b> Usuario.h:15</div></div>
+<div class="ttc" id="classGerenteBD_html_a938eebbcf539e0900c4cfd77cfc91be5"><div class="ttname"><a href="classGerenteBD.html#a938eebbcf539e0900c4cfd77cfc91be5">GerenteBD::RemoveUsuario</a></div><div class="ttdeci">void RemoveUsuario()</div><div class="ttdoc">Remove um usu·rio do banco de dados. </div><div class="ttdef"><b>Definition:</b> GerenteBD.cpp:104</div></div>
+<div class="ttc" id="classGerenteBD_html_ab981e470288daaba3b2983c8e22c3cc5"><div class="ttname"><a href="classGerenteBD.html#ab981e470288daaba3b2983c8e22c3cc5">GerenteBD::dbName</a></div><div class="ttdeci">static string dbName</div><div class="ttdef"><b>Definition:</b> GerenteBD.h:73</div></div>
+<div class="ttc" id="classGerenteBD_html"><div class="ttname"><a href="classGerenteBD.html">GerenteBD</a></div><div class="ttdef"><b>Definition:</b> GerenteBD.h:27</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

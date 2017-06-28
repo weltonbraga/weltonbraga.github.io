@@ -1,0 +1,5 @@
+<map id="GerenteLogin::NovoUsuario" name="GerenteLogin::NovoUsuario">
+<area shape="rect" id="node2" href="$classGerenteBD.html#a63f7f9bfe46b46806b21d5df2a8f34f0" title="Insere um novo usuário no banco de dados. " alt="" coords="236,31,412,57"/>
+<area shape="rect" id="node3" href="$classUsuario.html#a51b15e0008a5fa1d0da0da509aa1701e" title="Getter do atributo matricula. " alt="" coords="460,5,609,32"/>
+<area shape="rect" id="node4" href="$classUsuario.html#a39534698541ca25dca335aa79ef6e42f" title="Getter do atributo nome. " alt="" coords="469,56,600,83"/>
+</map>

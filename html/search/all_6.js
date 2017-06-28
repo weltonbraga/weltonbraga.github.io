@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['face_5fcascade',['face_cascade',['../reconhece_8cpp.html#a1aabdc311a65aaaede4d72fa8fe95494',1,'face_cascade():&#160;reconhece.cpp'],['../TiraFoto_8cpp.html#a1aabdc311a65aaaede4d72fa8fe95494',1,'face_cascade():&#160;TiraFoto.cpp']]],
+  ['face_5fcascade_5fname',['face_cascade_name',['../reconhece_8cpp.html#a943f47d0f211e011fbc096f815589800',1,'face_cascade_name():&#160;reconhece.cpp'],['../TiraFoto_8cpp.html#a943f47d0f211e011fbc096f815589800',1,'face_cascade_name():&#160;TiraFoto.cpp']]],
+  ['file_5fcontrol',['file_control',['../structsqlite3__api__routines.html#a629c5e5c03b3223242357282c84af46d',1,'sqlite3_api_routines']]],
+  ['finalize',['finalize',['../structsqlite3__api__routines.html#a0bbe0b1cdd61a2e7e089ad1e42978f6f',1,'sqlite3_api_routines']]],
+  ['fonte',['fonte',['../lembrete_8txt.html#a2062af76d56d4acde5c89a98f2fb20f2',1,'lembrete.txt']]],
+  ['free',['free',['../structsqlite3__api__routines.html#a7418560cd2dacb9a6cb0b7f5e3082787',1,'sqlite3_api_routines']]],
+  ['free_5ftable',['free_table',['../structsqlite3__api__routines.html#aa94faa431905ee9d04bb93cbce735a0c',1,'sqlite3_api_routines']]],
+  ['fts5_5fapi',['fts5_api',['../structfts5__api.html',1,'fts5_api'],['../sqlite3_8h.html#a80e586675de6a22bb2c221d91bbaada7',1,'fts5_api():&#160;sqlite3.h']]],
+  ['fts5_5fextension_5ffunction',['fts5_extension_function',['../sqlite3_8h.html#af0e6eba0ca87172e5e39977c675d09dd',1,'sqlite3.h']]],
+  ['fts5_5ftoken_5fcolocated',['FTS5_TOKEN_COLOCATED',['../sqlite3_8h.html#a447491a2af8fa00738a27f6eaf68d170',1,'sqlite3.h']]],
+  ['fts5_5ftokenize_5faux',['FTS5_TOKENIZE_AUX',['../sqlite3_8h.html#a9a2afa24aae0210f83981cb122bcb394',1,'sqlite3.h']]],
+  ['fts5_5ftokenize_5fdocument',['FTS5_TOKENIZE_DOCUMENT',['../sqlite3_8h.html#a9ed7ed21d1a131886cb5bfe434c7f508',1,'sqlite3.h']]],
+  ['fts5_5ftokenize_5fprefix',['FTS5_TOKENIZE_PREFIX',['../sqlite3_8h.html#a5d07de9693792fb722b64417085f714c',1,'sqlite3.h']]],
+  ['fts5_5ftokenize_5fquery',['FTS5_TOKENIZE_QUERY',['../sqlite3_8h.html#a3b4f706014c7c061cab49b874cf5aed2',1,'sqlite3.h']]],
+  ['fts5_5ftokenizer',['fts5_tokenizer',['../structfts5__tokenizer.html',1,'fts5_tokenizer'],['../sqlite3_8h.html#a4f3d809ea358784820914b30ab0c2964',1,'fts5_tokenizer():&#160;sqlite3.h']]],
+  ['fts5context',['Fts5Context',['../sqlite3_8h.html#a97821b95ebebd43db901977ffd5b26bc',1,'sqlite3.h']]],
+  ['fts5extensionapi',['Fts5ExtensionApi',['../structFts5ExtensionApi.html',1,'Fts5ExtensionApi'],['../sqlite3_8h.html#aae611efb54934ff610726ff4657c9fb8',1,'Fts5ExtensionApi():&#160;sqlite3.h']]],
+  ['fts5phraseiter',['Fts5PhraseIter',['../structFts5PhraseIter.html',1,'Fts5PhraseIter'],['../sqlite3_8h.html#a0aae619b97d366a41923b2ed31313023',1,'Fts5PhraseIter():&#160;sqlite3.h']]],
+  ['fts5tokenizer',['Fts5Tokenizer',['../sqlite3_8h.html#ac015f88c5332d612a3125fc0014e468c',1,'sqlite3.h']]],
+  ['fully_5fwithin',['FULLY_WITHIN',['../sqlite3_8h.html#a275a271583eddc75b52077c51424444e',1,'sqlite3.h']]],
+  ['functions_2ecpp',['functions.cpp',['../functions_8cpp.html',1,'']]]
+];

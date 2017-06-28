@@ -1,0 +1,15 @@
+<map id="SistemaLinf::_EfetuaLogin" name="SistemaLinf::_EfetuaLogin">
+<area shape="rect" id="node2" href="$classSistemaLinf.html#a58e8e35371ac1f5b61f6692508024b43" title="SistemaLinf::LimpaTela" alt="" coords="240,157,399,184"/>
+<area shape="rect" id="node3" href="$classGerenteLogin.html#a5abe6312f068245a8757f46005f85faf" title="GerenteLogin::Credencia" alt="" coords="463,208,630,235"/>
+<area shape="rect" id="node13" href="$classGerenteLogin.html#a94bdb9e213ffdc0aa3219dad300801cb" title="GerenteLogin::NovoUsuario" alt="" coords="228,259,411,285"/>
+<area shape="rect" id="node4" href="$classGerenteBD.html#ae5b9e1254a70db28a14118a9cb7bbabb" title="Verifica a existencia de usuario. " alt="" coords="695,157,873,184"/>
+<area shape="rect" id="node5" href="$classGerenteLogin.html#a1c459951cdb69fbb49096d036a932cb0" title="GerenteLogin::ReconheceFace" alt="" coords="683,208,885,235"/>
+<area shape="rect" id="node6" href="$classGerenteBD.html#aee848e57a172b20998ada945c2d8f66a" title="Busca um usuário no banco de dados. " alt="" coords="695,56,873,83"/>
+<area shape="rect" id="node10" href="$classUsuario.html#a51b15e0008a5fa1d0da0da509aa1701e" title="Getter do atributo matricula. " alt="" coords="709,259,859,285"/>
+<area shape="rect" id="node11" href="$classUsuario.html#a39534698541ca25dca335aa79ef6e42f" title="Getter do atributo nome. " alt="" coords="719,309,849,336"/>
+<area shape="rect" id="node12" href="$classGerenteBD.html#a83307478b300f18ad530bbae7a21c5cb" title="Verifica se a matricula confere com a senha. " alt="" coords="695,107,873,133"/>
+<area shape="rect" id="node7" href="$classUsuario.html#a120e068856b0e0a9e0db6e5a7e3c8555" title="Setter do atributo matricula. " alt="" coords="933,5,1081,32"/>
+<area shape="rect" id="node8" href="$classUsuario.html#a392412fa31482a0a56fbca53d1f0bbb0" title="Setter do atributo nome. " alt="" coords="942,56,1073,83"/>
+<area shape="rect" id="node9" href="$classUsuario.html#a172eab6b5e1cdd16bcf87c1ffec86917" title="Setter do atributo senha. " alt="" coords="941,107,1073,133"/>
+<area shape="rect" id="node14" href="$classGerenteBD.html#a63f7f9bfe46b46806b21d5df2a8f34f0" title="Insere um novo usuário no banco de dados. " alt="" coords="459,259,635,285"/>
+</map>
