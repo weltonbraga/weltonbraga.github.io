@@ -1,0 +1,7 @@
+<map id="SistemaLinf::_ReservarLab" name="SistemaLinf::_ReservarLab">
+<area shape="rect" id="node2" href="$classGerenteBD.html#ac4a3132cc8f79fd3472358378c1cfe0c" title="GerenteBD::BuscaReserva" alt="" coords="247,5,429,32"/>
+<area shape="rect" id="node4" href="$classSistemaLinf.html#aa826b0cb1de2201bbb8ee2e9fcae7d48" title="SistemaLinf::_ImprimeReservas" alt="" coords="233,56,443,83"/>
+<area shape="rect" id="node5" href="$classUsuario.html#a51b15e0008a5fa1d0da0da509aa1701e" title="Getter do atributo matricula. " alt="" coords="263,107,413,133"/>
+<area shape="rect" id="node6" href="$classGerenteBD.html#a34f72b9c2114723a55c4582a73ce0afa" title="GerenteBD::InsereReserva" alt="" coords="248,157,428,184"/>
+<area shape="rect" id="node3" href="$classGerenteBD.html#ad0207347ebe1fc29ebfd11cec64e5211" title="GerenteBD::DataComReserva" alt="" coords="491,81,691,108"/>
+</map>

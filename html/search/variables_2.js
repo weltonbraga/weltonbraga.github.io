@@ -5,6 +5,7 @@ var searchData=
   ['clear_5fbindings',['clear_bindings',['../structsqlite3__api__routines.html#a029f84e8bb05f0274c728b45668871b5',1,'sqlite3_api_routines']]],
   ['close',['close',['../structsqlite3__api__routines.html#a5c30292eef0130d7e8a408c4e3396012',1,'sqlite3_api_routines']]],
   ['close_5fv2',['close_v2',['../structsqlite3__api__routines.html#abb98b8486cbe7d739b8840d3d90baa30',1,'sqlite3_api_routines']]],
+  ['codigoreserva',['codigoReserva',['../classGerenteBD.html#a6358e9e26a2733db9b72231f0f3edf7c',1,'GerenteBD']]],
   ['collation_5fneeded',['collation_needed',['../structsqlite3__api__routines.html#abdb2d9029b65f0027f3f072775c54694',1,'sqlite3_api_routines']]],
   ['collation_5fneeded16',['collation_needed16',['../structsqlite3__api__routines.html#a222a9d16663fc094b39705c451b8e21c',1,'sqlite3_api_routines']]],
   ['column_5fblob',['column_blob',['../structsqlite3__api__routines.html#aea28365a58adb937fbdf3983fe080e1a',1,'sqlite3_api_routines']]],

@@ -1,39 +1,36 @@
 var indexSectionsWithContent =
 {
   0: "_abcdefghilmnoprstuvwxz~",
-  1: "cfglsu",
-  2: "c",
-  3: "acfglmrstu",
-  4: "_abcdegilmnrsu~",
-  5: "abcdefghilmnoprstuvwxz",
-  6: "fs",
-  7: "_dfnops",
-  8: "p"
+  1: "fgrsu",
+  2: "gmrstu",
+  3: "_abcdegilmnorsu~",
+  4: "abcdefghilmnoprstuvwxz",
+  5: "fs",
+  6: "_dfnops",
+  7: "p"
 };
 
 var indexSectionNames =
 {
   0: "all",
   1: "classes",
-  2: "namespaces",
-  3: "files",
-  4: "functions",
-  5: "variables",
-  6: "typedefs",
-  7: "defines",
-  8: "pages"
+  2: "files",
+  3: "functions",
+  4: "variables",
+  5: "typedefs",
+  6: "defines",
+  7: "pages"
 };
 
 var indexSectionLabels =
 {
   0: "Tudo",
   1: "Estruturas de dados",
-  2: "Namespaces",
-  3: "Ficheiros",
-  4: "Funções",
-  5: "Variáveis",
-  6: "Definições de tipos",
-  7: "Macros",
-  8: "Páginas"
+  2: "Ficheiros",
+  3: "Funções",
+  4: "Variáveis",
+  5: "Definições de tipos",
+  6: "Macros",
+  7: "Páginas"
 };
 

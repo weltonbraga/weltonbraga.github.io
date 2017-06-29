@@ -3,7 +3,6 @@ var searchData=
   ['randomness',['randomness',['../structsqlite3__api__routines.html#addef940dbc8b1d1c1356f3e4ee494540',1,'sqlite3_api_routines']]],
   ['realloc',['realloc',['../structsqlite3__api__routines.html#a40270284cc1abb0818ade7b41351bb5b',1,'sqlite3_api_routines']]],
   ['realloc64',['realloc64',['../structsqlite3__api__routines.html#ac840cfa13e7761011e5fbd0a7dce7a12',1,'sqlite3_api_routines']]],
-  ['reconhecimento',['reconhecimento',['../lembrete_8txt.html#acefaaf14d4d64779ac4f53ef1caa4faa',1,'lembrete.txt']]],
   ['release_5fmemory',['release_memory',['../structsqlite3__api__routines.html#a34fba43ed54a03e129804659ccb379d1',1,'sqlite3_api_routines']]],
   ['reset',['reset',['../structsqlite3__api__routines.html#a88551d8943b8f9cdc7abebac90998ddf',1,'sqlite3_api_routines']]],
   ['reset_5fauto_5fextension',['reset_auto_extension',['../structsqlite3__api__routines.html#a4424e3f8a5f42d705b4619c16959ef4a',1,'sqlite3_api_routines']]],

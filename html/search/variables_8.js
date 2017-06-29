@@ -5,8 +5,6 @@ var searchData=
   ['idxnum',['idxNum',['../structsqlite3__index__info.html#afcee17707a1c147fbd55c23c807fdae3',1,'sqlite3_index_info']]],
   ['idxstr',['idxStr',['../structsqlite3__index__info.html#a1a9935e997bd6e3cce048534da7506a7',1,'sqlite3_index_info']]],
   ['ilevel',['iLevel',['../structsqlite3__rtree__query__info.html#af91ca2d5f867b3b0aa9c91920a3b5b45',1,'sqlite3_rtree_query_info']]],
-  ['im_5fheight',['im_height',['../reconhece_8cpp.html#aad3babd95ac5875d4f59fea035ec655b',1,'reconhece.cpp']]],
-  ['im_5fwidth',['im_width',['../reconhece_8cpp.html#aa0c889443480540842d1f8441f90317d',1,'reconhece.cpp']]],
   ['interruptx',['interruptx',['../structsqlite3__api__routines.html#adab3cdd36976fa72f7e6662f597818ea',1,'sqlite3_api_routines']]],
   ['irowid',['iRowid',['../structsqlite3__rtree__query__info.html#a9e43489993c8aeace851f86eaa00ec26',1,'sqlite3_rtree_query_info']]],
   ['itermoffset',['iTermOffset',['../structsqlite3__index__info_1_1sqlite3__index__constraint.html#a4e8368da66f34b7f07b369984b813d1b',1,'sqlite3_index_info::sqlite3_index_constraint']]],

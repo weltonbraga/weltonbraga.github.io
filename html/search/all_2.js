@@ -6,7 +6,6 @@ var searchData=
   ['backup_5fpagecount',['backup_pagecount',['../structsqlite3__api__routines.html#ae5500071d0a9d35db9273026a95857a8',1,'sqlite3_api_routines']]],
   ['backup_5fremaining',['backup_remaining',['../structsqlite3__api__routines.html#aff1d913159dfdfc5105e783ea9ec45f8',1,'sqlite3_api_routines']]],
   ['backup_5fstep',['backup_step',['../structsqlite3__api__routines.html#ac21f3f6f76ad8f076e027fc3b85e2a6c',1,'sqlite3_api_routines']]],
-  ['base_5fpath',['BASE_PATH',['../namespacecria-fotos-csv.html#a95989ffa25d7588cf151ae1eb0880889',1,'cria-fotos-csv']]],
   ['bind_5fblob',['bind_blob',['../structsqlite3__api__routines.html#a2e84de4afd1ba42151a75df4d7480a72',1,'sqlite3_api_routines']]],
   ['bind_5fblob64',['bind_blob64',['../structsqlite3__api__routines.html#aa34e69966762f91f4570cee3cb8f630f',1,'sqlite3_api_routines']]],
   ['bind_5fdouble',['bind_double',['../structsqlite3__api__routines.html#abcdefbe78ab3ce4324d86651c03e8470',1,'sqlite3_api_routines']]],
@@ -28,7 +27,7 @@ var searchData=
   ['blob_5fread',['blob_read',['../structsqlite3__api__routines.html#a0813b9f5cea0e7c9fae5713e8226bb7d',1,'sqlite3_api_routines']]],
   ['blob_5freopen',['blob_reopen',['../structsqlite3__api__routines.html#a457411772bf6cf8883acd7a27526a68f',1,'sqlite3_api_routines']]],
   ['blob_5fwrite',['blob_write',['../structsqlite3__api__routines.html#a3a402cb876e7d4e4f60d70924e5cc04d',1,'sqlite3_api_routines']]],
-  ['busca',['busca',['../functions_8cpp.html#a81e9e0fafea0a07acc4e5cd6f0c810aa',1,'busca():&#160;functions.cpp'],['../lib_8h.html#a81e9e0fafea0a07acc4e5cd6f0c810aa',1,'busca():&#160;functions.cpp']]],
+  ['buscareserva',['BuscaReserva',['../classGerenteBD.html#ac4a3132cc8f79fd3472358378c1cfe0c',1,'GerenteBD']]],
   ['buscausuario',['BuscaUsuario',['../classGerenteBD.html#aee848e57a172b20998ada945c2d8f66a',1,'GerenteBD']]],
   ['busy_5fhandler',['busy_handler',['../structsqlite3__api__routines.html#ad7b688e04d388cdeb13d4c06fedb1c46',1,'sqlite3_api_routines']]],
   ['busy_5ftimeout',['busy_timeout',['../structsqlite3__api__routines.html#a8a4a2ccc0c7587e6c5c4db5f4b03246b',1,'sqlite3_api_routines']]]

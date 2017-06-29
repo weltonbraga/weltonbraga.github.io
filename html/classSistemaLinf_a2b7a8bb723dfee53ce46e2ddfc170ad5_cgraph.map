@@ -1,5 +1,16 @@
 <map id="SistemaLinf::_NavegaConta" name="SistemaLinf::_NavegaConta">
-<area shape="rect" id="node2" href="$classSistemaLinf.html#a58e8e35371ac1f5b61f6692508024b43" title="SistemaLinf::LimpaTela" alt="" coords="240,5,399,32"/>
-<area shape="rect" id="node3" href="$classUsuario.html#a39534698541ca25dca335aa79ef6e42f" title="Getter do atributo nome. " alt="" coords="254,56,385,83"/>
-<area shape="rect" id="node4" href="$classSistemaLinf.html#a21363263d17f16e33735f536ceef87e1" title="SistemaLinf::_Opcoes" alt="" coords="244,107,395,133"/>
+<area shape="rect" id="node2" href="$classSistemaLinf.html#a8a6ab1c1b404f58739b2c99ef6ae95d2" title="SistemaLinf::_Cabecalho" alt="" coords="526,31,694,57"/>
+<area shape="rect" id="node5" href="$classSistemaLinf.html#a349a48f688ee38225cfbdd0c30484a03" title="SistemaLinf::_ReservaLaboratorio" alt="" coords="240,187,459,213"/>
+<area shape="rect" id="node14" href="$classSistemaLinf.html#a4bcddb736d984cad7feb2d0b16f91d34" title="SistemaLinf::_OpcaoInvalida" alt="" coords="515,81,705,108"/>
+<area shape="rect" id="node15" href="$classSistemaLinf.html#a17d5c1f1114a1ed28e17775c134351eb" title="SistemaLinf::_EditaDados\lPessoais" alt="" coords="262,70,437,111"/>
+<area shape="rect" id="node3" href="$classSistemaLinf.html#ae02bf5d72ed634c919512e8c80f8ca28" title="SistemaLinf::_LimpaTela" alt="" coords="783,5,949,32"/>
+<area shape="rect" id="node4" href="$classUsuario.html#a39534698541ca25dca335aa79ef6e42f" title="Getter do atributo nome. " alt="" coords="801,56,931,83"/>
+<area shape="rect" id="node6" href="$classSistemaLinf.html#aa826b0cb1de2201bbb8ee2e9fcae7d48" title="SistemaLinf::_ImprimeReservas" alt="" coords="761,132,971,159"/>
+<area shape="rect" id="node7" href="$classGerenteBD.html#ac4a3132cc8f79fd3472358378c1cfe0c" title="GerenteBD::BuscaReserva" alt="" coords="775,183,957,209"/>
+<area shape="rect" id="node9" href="$classUsuario.html#a51b15e0008a5fa1d0da0da509aa1701e" title="Getter do atributo matricula. " alt="" coords="791,284,941,311"/>
+<area shape="rect" id="node10" href="$classSistemaLinf.html#a0414bcc2e81953f87acbb3ca80aab9ab" title="SistemaLinf::_ReservarLab" alt="" coords="520,233,700,260"/>
+<area shape="rect" id="node12" href="$classSistemaLinf.html#ac4312005ce0674d918f89b22836a92ee" title="SistemaLinf::_CancelarReserva" alt="" coords="507,335,713,361"/>
+<area shape="rect" id="node13" href="$classGerenteBD.html#a4ddc8a64d951a32cc19327ce99bdc1a8" title="GerenteBD::CommitReserva" alt="" coords="515,385,705,412"/>
+<area shape="rect" id="node8" href="$classGerenteBD.html#ad0207347ebe1fc29ebfd11cec64e5211" title="GerenteBD::DataComReserva" alt="" coords="1019,208,1219,235"/>
+<area shape="rect" id="node11" href="$classGerenteBD.html#a34f72b9c2114723a55c4582a73ce0afa" title="GerenteBD::InsereReserva" alt="" coords="776,233,956,260"/>
 </map>

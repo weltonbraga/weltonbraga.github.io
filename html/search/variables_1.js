@@ -6,7 +6,6 @@ var searchData=
   ['backup_5fpagecount',['backup_pagecount',['../structsqlite3__api__routines.html#ae5500071d0a9d35db9273026a95857a8',1,'sqlite3_api_routines']]],
   ['backup_5fremaining',['backup_remaining',['../structsqlite3__api__routines.html#aff1d913159dfdfc5105e783ea9ec45f8',1,'sqlite3_api_routines']]],
   ['backup_5fstep',['backup_step',['../structsqlite3__api__routines.html#ac21f3f6f76ad8f076e027fc3b85e2a6c',1,'sqlite3_api_routines']]],
-  ['base_5fpath',['BASE_PATH',['../namespacecria-fotos-csv.html#a95989ffa25d7588cf151ae1eb0880889',1,'cria-fotos-csv']]],
   ['bind_5fblob',['bind_blob',['../structsqlite3__api__routines.html#a2e84de4afd1ba42151a75df4d7480a72',1,'sqlite3_api_routines']]],
   ['bind_5fblob64',['bind_blob64',['../structsqlite3__api__routines.html#aa34e69966762f91f4570cee3cb8f630f',1,'sqlite3_api_routines']]],
   ['bind_5fdouble',['bind_double',['../structsqlite3__api__routines.html#abcdefbe78ab3ce4324d86651c03e8470',1,'sqlite3_api_routines']]],

@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['face_5fcascade',['face_cascade',['../reconhece_8cpp.html#a1aabdc311a65aaaede4d72fa8fe95494',1,'face_cascade():&#160;reconhece.cpp'],['../TiraFoto_8cpp.html#a1aabdc311a65aaaede4d72fa8fe95494',1,'face_cascade():&#160;TiraFoto.cpp']]],
-  ['face_5fcascade_5fname',['face_cascade_name',['../reconhece_8cpp.html#a943f47d0f211e011fbc096f815589800',1,'face_cascade_name():&#160;reconhece.cpp'],['../TiraFoto_8cpp.html#a943f47d0f211e011fbc096f815589800',1,'face_cascade_name():&#160;TiraFoto.cpp']]],
   ['file_5fcontrol',['file_control',['../structsqlite3__api__routines.html#a629c5e5c03b3223242357282c84af46d',1,'sqlite3_api_routines']]],
   ['finalize',['finalize',['../structsqlite3__api__routines.html#a0bbe0b1cdd61a2e7e089ad1e42978f6f',1,'sqlite3_api_routines']]],
-  ['fonte',['fonte',['../lembrete_8txt.html#a2062af76d56d4acde5c89a98f2fb20f2',1,'lembrete.txt']]],
   ['free',['free',['../structsqlite3__api__routines.html#a7418560cd2dacb9a6cb0b7f5e3082787',1,'sqlite3_api_routines']]],
   ['free_5ftable',['free_table',['../structsqlite3__api__routines.html#aa94faa431905ee9d04bb93cbce735a0c',1,'sqlite3_api_routines']]],
   ['fts5_5fapi',['fts5_api',['../structfts5__api.html',1,'fts5_api'],['../sqlite3_8h.html#a80e586675de6a22bb2c221d91bbaada7',1,'fts5_api():&#160;sqlite3.h']]],
@@ -19,6 +16,5 @@ var searchData=
   ['fts5extensionapi',['Fts5ExtensionApi',['../structFts5ExtensionApi.html',1,'Fts5ExtensionApi'],['../sqlite3_8h.html#aae611efb54934ff610726ff4657c9fb8',1,'Fts5ExtensionApi():&#160;sqlite3.h']]],
   ['fts5phraseiter',['Fts5PhraseIter',['../structFts5PhraseIter.html',1,'Fts5PhraseIter'],['../sqlite3_8h.html#a0aae619b97d366a41923b2ed31313023',1,'Fts5PhraseIter():&#160;sqlite3.h']]],
   ['fts5tokenizer',['Fts5Tokenizer',['../sqlite3_8h.html#ac015f88c5332d612a3125fc0014e468c',1,'sqlite3.h']]],
-  ['fully_5fwithin',['FULLY_WITHIN',['../sqlite3_8h.html#a275a271583eddc75b52077c51424444e',1,'sqlite3.h']]],
-  ['functions_2ecpp',['functions.cpp',['../functions_8cpp.html',1,'']]]
+  ['fully_5fwithin',['FULLY_WITHIN',['../sqlite3_8h.html#a275a271583eddc75b52077c51424444e',1,'sqlite3.h']]]
 ];

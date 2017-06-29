@@ -39,7 +39,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
     <ul class="tablist">
       <li><a href="index.html"><span>Página&#160;principal</span></a></li>
       <li class="current"><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Estruturas&#160;de&#160;dados</span></a></li>
       <li><a href="files.html"><span>Ficheiros</span></a></li>
       <li>
@@ -80,35 +79,40 @@ var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
 <div class="title">projetoTP1_2 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Projeto final disciplina Técnicas de Programação 1</p>
-<p>O reconhecimento facial é uma das técnicas mais utilizadas na biometria tanto para a segurança da informação como para segurança de nossa sociedade.</p>
-<p>Este trabalho implementa um software que reconhece uma imagem retirada através de um webcam ou câmera para reconhecer suas características e compará-las com as de um banco de dados.</p>
-<p>Foi utilizada a biblioteca OpenCV, biblioteca para a utilização de processamento de imagens de grande eficácia e por obter excelentes resultados no reconhecimento de características utilizando os HaarCascade. O software foi desenvolvido em c++.</p>
+<div class="textblock"><p>Projeto final disciplina TÃ©cnicas de ProgramaÃ§Ã£o 1</p>
+<p>O reconhecimento facial Ã© uma das tÃ©cnicas mais utilizadas na biometria tanto para a seguranÃ§a da informaÃ§Ã£o como para seguranÃ§a de nossa sociedade.</p>
+<p>Este trabalho implementa um software que reconhece uma imagem retirada atravÃ©s de um webcam ou cÃ¢mera para reconhecer suas caracterÃ­sticas e comparÃ¡-las com as de um banco de dados.</p>
+<p>Foi utilizada a biblioteca OpenCV, biblioteca para a utilizaÃ§Ã£o de processamento de imagens de grande eficÃ¡cia e por obter excelentes resultados no reconhecimento de caracterÃ­sticas utilizando os HaarCascade. O software foi desenvolvido em c++.</p>
 <blockquote class="doxtable">
-<p>Versões utilizadas: ... </p>
+<p>VersÃµes utilizadas: ... </p>
 </blockquote>
 <h2>Diagrama Casos de uso</h2>
-<p>Esse diagrama foi feito pensando nos principais atores presentes no laboratório. É também uma ideia inicial de modelagem do banco de dados.</p>
+<p>Esse diagrama foi feito pensando nos principais atores presentes no laboratÃ³rio. Ã tambÃ©m uma ideia inicial de modelagem do banco de dados.</p>
 <div class="image">
 <img src="diagrama_casos_de_uso.png"  alt="Diagrama casos de uso"/>
 </div>
 <p>Fonte:</p>
 <p><a href="https://yuml.me/diagram/scruffy/usecase/samples">https://yuml.me/diagram/scruffy/usecase/samples</a></p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;[Professor]-(Reservar laboratório)</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;[Professor]-(Acessar laboratório)</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;[Professor]-(Criar cadastro de acesso)</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;[Aluno]-(Criar cadastro de acesso)</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;[Aluno]-(Acessar laboratório)</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;[Funcionário]-(Criar cadastro de acesso)</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;[Funcionário]-(Acessar laboratório)</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;[Funcionário]-(Modificar cadastro de acesso)</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;[Funcionário]-(Excluir cadastro de acesso)</div></div><!-- fragment --><h2>Diagrama de Atividades</h2>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;[Professor]-(Reservar laboratÃ³rio)</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;[Professor]-(Acessar laboratÃ³rio)</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;[Professor]-(Criar cadastro de acesso)</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;[Aluno]-(Criar cadastro de acesso)</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;[Aluno]-(Acessar laboratÃ³rio)</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;[FuncionÃ¡rio]-(Criar cadastro de acesso)</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;[FuncionÃ¡rio]-(Acessar laboratÃ³rio)</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;[FuncionÃ¡rio]-(Modificar cadastro de acesso)</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;[FuncionÃ¡rio]-(Excluir cadastro de acesso)</div></div><!-- fragment --><h2>Diagrama de Atividades</h2>
 <p>Descreve o parte do sistema de reconhecimento de faces para permitir a entrada ou cadastrar uma pessoa no linf.</p>
 <div class="image">
 <img src="diagrama_atividade.png"  alt="Diagrama atividade"/>
 </div>
 <p>Fonte:</p>
 <p><a href="https://yuml.me/diagram/nofunky/activity/samples">https://yuml.me/diagram/nofunky/activity/samples</a></p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;(start)-&gt;(Reconhecer_Face)-&gt;&lt;a&gt;[Ok]-&gt;(Permite_Acesso_Linf),</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;&lt;a&gt;[Nao_identificado]-&gt;(Digita_login_senha)-&gt;(Atualiza_Cadastro)-&gt;(Permite_Acesso_Linf)-&gt;(end)</div></div><!-- fragment --><h2>Diagram de Sequência</h2>
-<p>Primeiro diagrama de sequência</p>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;(start)-&gt;(Reconhecer_Face)-&gt;&lt;a&gt;[Ok]-&gt;(Permite_Acesso_Linf),</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;&lt;a&gt;[Nao_identificado]-&gt;(Digita_login_senha)-&gt;(Atualiza_Cadastro)-&gt;(Permite_Acesso_Linf)-&gt;(end)</div></div><!-- fragment --><h2>Diagram de SequÃªncia</h2>
+<p>Primeiro diagrama de sequÃªncia</p>
 <div class="image">
 <img src="diagrama_sequencia.png"  alt="Diagrama de sequencia"/>
 </div>
 <p>Fonte:</p>
 <p><a href="https://www.websequencediagrams.com/">https://www.websequencediagrams.com/</a></p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;title Sistema Trabalho 2</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;User-&gt;SGBD: informar número de matrícula</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;alt Matrícula encontrada</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    SGBD-&gt;SYSTEM: retorna fotos do User</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    User-&gt;SYSTEM: captura uma foto</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    SYSTEM-&gt;User: reconhece foto</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    alt foto Não reconhecida</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        User-&gt;SYSTEM: captura foto</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        SYSTEM-&gt;SGBD: armazena nova foto</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    end</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;else Matrícula não encontrada</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    SGBD-&gt;User: cadastrar_User()</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    User-&gt;SGBD: informa dados()</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    User-&gt;SYSTEM: captura fotos()</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    SYSTEM-&gt;SGBD: armazena fotos()</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;end</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;SYSTEM-&gt;User: Validar User</div></div><!-- fragment --> </div></div><!-- contents -->
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;title Sistema Trabalho 2</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;User-&gt;SGBD: informar nÃºmero de matrÃ­cula</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;alt MatrÃ­cula encontrada</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    SGBD-&gt;SYSTEM: retorna fotos do User</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    User-&gt;SYSTEM: captura uma foto</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    SYSTEM-&gt;User: reconhece foto</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    alt foto NÃ£o reconhecida</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        User-&gt;SYSTEM: captura foto</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        SYSTEM-&gt;SGBD: armazena nova foto</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    end</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;else MatrÃ­cula nÃ£o encontrada</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    SGBD-&gt;User: cadastrar_User()</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    User-&gt;SGBD: informa dados()</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    User-&gt;SYSTEM: captura fotos()</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    SYSTEM-&gt;SGBD: armazena fotos()</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;end</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;SYSTEM-&gt;User: Validar User</div></div><!-- fragment --><h2>Diagrama de Classes</h2>
+<p>Primeiro diagrama de classes</p>
+<div class="image">
+<img src="Diagrama simplificado de classes.png"  alt="Diagrama de classes"/>
+</div>
+ </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Gerado por &#160;<a href="http://www.doxygen.org/index.html">

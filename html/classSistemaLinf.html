@@ -38,7 +38,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Página&#160;principal</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Estruturas&#160;de&#160;dados</span></a></li>
       <li><a href="files.html"><span>Ficheiros</span></a></li>
       <li>
@@ -100,31 +99,45 @@ Diagrama de colaboração para SistemaLinf:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSistemaLinf__coll__graph.png" border="0" usemap="#SistemaLinf_coll__map" alt="Collaboration graph"/></div>
 <map name="SistemaLinf_coll__map" id="SistemaLinf_coll__map">
-<area shape="rect" id="node2" href="classUsuario.html" title="Representa a inst�ncia do usuario que utiliza o sistema. " alt="" coords="5,322,121,517"/>
-<area shape="rect" id="node4" href="classGerenteBD.html" title="{GerenteBD\n||+ GerenteBD()\l+ ~GerenteBD()\l+ AtualizaUsuario()\l+ RemoveUsuario()\l+ InsereUsuario()\l+ BuscaUsuario()\l+ ExisteUsuario()\l+ ChecaUsuario()\l}" alt="" coords="146,329,282,509"/>
-<area shape="rect" id="node7" href="classGerenteLogin.html" title="GerenteLogin � aquela que credencia o usu�rio. " alt="" coords="307,315,444,524"/>
+<area shape="rect" id="node2" href="classUsuario.html" title="Representa a instância do usuario que utiliza o sistema. " alt="" coords="5,359,121,553"/>
+<area shape="rect" id="node4" href="classGerenteBD.html" title="{GerenteBD\n|&#45; codigoReserva\l|+ GerenteBD()\l+ ~GerenteBD()\l+ AtualizaUsuario()\l+ RemoveUsuario()\l+ InsereUsuario()\l+ BuscaUsuario()\l+ ExisteUsuario()\l+ ChecaUsuario()\l+ InsereReserva()\l+ BuscaReserva()\l+ CancelaReserva()\l+ CommitReserva()\l+ DataComReserva()\l}" alt="" coords="165,329,311,583"/>
+<area shape="rect" id="node8" href="classGerenteLogin.html" title="GerenteLogin é aquela que credencia o usuário. " alt="" coords="335,366,514,546"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Membros públicos</h2></td></tr>
 <tr class="memitem:a30dbef8aba4fa4e4753d7838c0c61bd3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSistemaLinf.html#a30dbef8aba4fa4e4753d7838c0c61bd3">SistemaLinf</a> ()</td></tr>
-<tr class="memdesc:a30dbef8aba4fa4e4753d7838c0c61bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construtor padr�o.  <a href="#a30dbef8aba4fa4e4753d7838c0c61bd3">Mais...</a><br /></td></tr>
+<tr class="memdesc:a30dbef8aba4fa4e4753d7838c0c61bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construtor padrão.  <a href="#a30dbef8aba4fa4e4753d7838c0c61bd3">Mais...</a><br /></td></tr>
 <tr class="separator:a30dbef8aba4fa4e4753d7838c0c61bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdde84e8ce18a7be36ea9546cf7ff5ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed">Run</a> ()</td></tr>
-<tr class="memdesc:abdde84e8ce18a7be36ea9546cf7ff5ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ambiente de execu��o dos sistema.  <a href="#abdde84e8ce18a7be36ea9546cf7ff5ed">Mais...</a><br /></td></tr>
+<tr class="memdesc:abdde84e8ce18a7be36ea9546cf7ff5ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ambiente de execução dos sistema.  <a href="#abdde84e8ce18a7be36ea9546cf7ff5ed">Mais...</a><br /></td></tr>
 <tr class="separator:abdde84e8ce18a7be36ea9546cf7ff5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Membros privados</h2></td></tr>
 <tr class="memitem:aaeba3f1f325e36dfc8718e1e5eee5e86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSistemaLinf.html#aaeba3f1f325e36dfc8718e1e5eee5e86">_EfetuaLogin</a> ()</td></tr>
 <tr class="separator:aaeba3f1f325e36dfc8718e1e5eee5e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21363263d17f16e33735f536ceef87e1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSistemaLinf.html#a21363263d17f16e33735f536ceef87e1">_Opcoes</a> ()</td></tr>
-<tr class="separator:a21363263d17f16e33735f536ceef87e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bcddb736d984cad7feb2d0b16f91d34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSistemaLinf.html#a4bcddb736d984cad7feb2d0b16f91d34">_OpcaoInvalida</a> ()</td></tr>
+<tr class="separator:a4bcddb736d984cad7feb2d0b16f91d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b7a8bb723dfee53ce46e2ddfc170ad5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSistemaLinf.html#a2b7a8bb723dfee53ce46e2ddfc170ad5">_NavegaConta</a> ()</td></tr>
 <tr class="separator:a2b7a8bb723dfee53ce46e2ddfc170ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58e8e35371ac1f5b61f6692508024b43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSistemaLinf.html#a58e8e35371ac1f5b61f6692508024b43">LimpaTela</a> ()</td></tr>
-<tr class="separator:a58e8e35371ac1f5b61f6692508024b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae02bf5d72ed634c919512e8c80f8ca28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSistemaLinf.html#ae02bf5d72ed634c919512e8c80f8ca28">_LimpaTela</a> ()</td></tr>
+<tr class="separator:ae02bf5d72ed634c919512e8c80f8ca28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a6ab1c1b404f58739b2c99ef6ae95d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSistemaLinf.html#a8a6ab1c1b404f58739b2c99ef6ae95d2">_Cabecalho</a> ()</td></tr>
+<tr class="separator:a8a6ab1c1b404f58739b2c99ef6ae95d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17d5c1f1114a1ed28e17775c134351eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSistemaLinf.html#a17d5c1f1114a1ed28e17775c134351eb">_EditaDadosPessoais</a> ()</td></tr>
+<tr class="separator:a17d5c1f1114a1ed28e17775c134351eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a349a48f688ee38225cfbdd0c30484a03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSistemaLinf.html#a349a48f688ee38225cfbdd0c30484a03">_ReservaLaboratorio</a> ()</td></tr>
+<tr class="separator:a349a48f688ee38225cfbdd0c30484a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65f9a06a610c866df4231d29c60282c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSistemaLinf.html#a65f9a06a610c866df4231d29c60282c9">_VerificaReserva</a> ()</td></tr>
+<tr class="separator:a65f9a06a610c866df4231d29c60282c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0414bcc2e81953f87acbb3ca80aab9ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSistemaLinf.html#a0414bcc2e81953f87acbb3ca80aab9ab">_ReservarLab</a> ()</td></tr>
+<tr class="separator:a0414bcc2e81953f87acbb3ca80aab9ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4312005ce0674d918f89b22836a92ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSistemaLinf.html#ac4312005ce0674d918f89b22836a92ee">_CancelarReserva</a> ()</td></tr>
+<tr class="separator:ac4312005ce0674d918f89b22836a92ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa826b0cb1de2201bbb8ee2e9fcae7d48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSistemaLinf.html#aa826b0cb1de2201bbb8ee2e9fcae7d48">_ImprimeReservas</a> (vector&lt; <a class="el" href="classReserva.html">Reserva</a> &gt; reservas)</td></tr>
+<tr class="separator:aa826b0cb1de2201bbb8ee2e9fcae7d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Atributos Privados</h2></td></tr>
@@ -137,7 +150,7 @@ Atributos Privados</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
 <div class="textblock"><p>Gera ambiente onde classes se comunicam. </p>
-<p>As classes do sistema se comunicam no m�todo <a class="el" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execu��o dos sistema. ">Run()</a> de <a class="el" href="classSistemaLinf.html" title="Gera ambiente onde classes se comunicam. ">SistemaLinf</a>. </p>
+<p>As classes do sistema se comunicam no método <a class="el" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execução dos sistema. ">Run()</a> de <a class="el" href="classSistemaLinf.html" title="Gera ambiente onde classes se comunicam. ">SistemaLinf</a>. </p>
 </div><h2 class="groupheader">Documentação dos Construtores &amp; Destrutor</h2>
 <a class="anchor" id="a30dbef8aba4fa4e4753d7838c0c61bd3"></a>
 <div class="memitem">
@@ -152,11 +165,143 @@ Atributos Privados</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construtor padr�o. </p>
+<p>Construtor padrão. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Documentação dos métodos</h2>
+<a class="anchor" id="a8a6ab1c1b404f58739b2c99ef6ae95d2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SistemaLinf::_Cabecalho </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Grafo de chamadas desta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="classSistemaLinf_a8a6ab1c1b404f58739b2c99ef6ae95d2_cgraph.png" border="0" usemap="#classSistemaLinf_a8a6ab1c1b404f58739b2c99ef6ae95d2_cgraph" alt=""/></div>
+<map name="classSistemaLinf_a8a6ab1c1b404f58739b2c99ef6ae95d2_cgraph" id="classSistemaLinf_a8a6ab1c1b404f58739b2c99ef6ae95d2_cgraph">
+<area shape="rect" id="node2" href="classSistemaLinf.html#ae02bf5d72ed634c919512e8c80f8ca28" title="SistemaLinf::_LimpaTela" alt="" coords="221,5,388,32"/>
+<area shape="rect" id="node3" href="classUsuario.html#a39534698541ca25dca335aa79ef6e42f" title="Getter do atributo nome. " alt="" coords="239,56,370,83"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="classSistemaLinf_a8a6ab1c1b404f58739b2c99ef6ae95d2_icgraph.png" border="0" usemap="#classSistemaLinf_a8a6ab1c1b404f58739b2c99ef6ae95d2_icgraph" alt=""/></div>
+<map name="classSistemaLinf_a8a6ab1c1b404f58739b2c99ef6ae95d2_icgraph" id="classSistemaLinf_a8a6ab1c1b404f58739b2c99ef6ae95d2_icgraph">
+<area shape="rect" id="node2" href="classSistemaLinf.html#a2b7a8bb723dfee53ce46e2ddfc170ad5" title="SistemaLinf::_NavegaConta" alt="" coords="488,24,675,51"/>
+<area shape="rect" id="node5" href="classSistemaLinf.html#a349a48f688ee38225cfbdd0c30484a03" title="SistemaLinf::_ReservaLaboratorio" alt="" coords="221,24,440,51"/>
+<area shape="rect" id="node6" href="classSistemaLinf.html#a17d5c1f1114a1ed28e17775c134351eb" title="SistemaLinf::_EditaDados\lPessoais" alt="" coords="243,75,418,117"/>
+<area shape="rect" id="node3" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execução dos sistema. " alt="" coords="723,24,845,51"/>
+<area shape="rect" id="node4" href="Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="893,24,944,51"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac4312005ce0674d918f89b22836a92ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SistemaLinf::_CancelarReserva </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="classSistemaLinf_ac4312005ce0674d918f89b22836a92ee_icgraph.png" border="0" usemap="#classSistemaLinf_ac4312005ce0674d918f89b22836a92ee_icgraph" alt=""/></div>
+<map name="classSistemaLinf_ac4312005ce0674d918f89b22836a92ee_icgraph" id="classSistemaLinf_ac4312005ce0674d918f89b22836a92ee_icgraph">
+<area shape="rect" id="node2" href="classSistemaLinf.html#a349a48f688ee38225cfbdd0c30484a03" title="SistemaLinf::_ReservaLaboratorio" alt="" coords="260,5,479,32"/>
+<area shape="rect" id="node3" href="classSistemaLinf.html#a2b7a8bb723dfee53ce46e2ddfc170ad5" title="SistemaLinf::_NavegaConta" alt="" coords="527,5,713,32"/>
+<area shape="rect" id="node4" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execução dos sistema. " alt="" coords="761,5,884,32"/>
+<area shape="rect" id="node5" href="Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="932,5,983,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a17d5c1f1114a1ed28e17775c134351eb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SistemaLinf::_EditaDadosPessoais </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Grafo de chamadas desta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="classSistemaLinf_a17d5c1f1114a1ed28e17775c134351eb_cgraph.png" border="0" usemap="#classSistemaLinf_a17d5c1f1114a1ed28e17775c134351eb_cgraph" alt=""/></div>
+<map name="classSistemaLinf_a17d5c1f1114a1ed28e17775c134351eb_cgraph" id="classSistemaLinf_a17d5c1f1114a1ed28e17775c134351eb_cgraph">
+<area shape="rect" id="node2" href="classSistemaLinf.html#a8a6ab1c1b404f58739b2c99ef6ae95d2" title="SistemaLinf::_Cabecalho" alt="" coords="239,31,407,57"/>
+<area shape="rect" id="node5" href="classSistemaLinf.html#a4bcddb736d984cad7feb2d0b16f91d34" title="SistemaLinf::_OpcaoInvalida" alt="" coords="228,81,417,108"/>
+<area shape="rect" id="node3" href="classSistemaLinf.html#ae02bf5d72ed634c919512e8c80f8ca28" title="SistemaLinf::_LimpaTela" alt="" coords="465,5,632,32"/>
+<area shape="rect" id="node4" href="classUsuario.html#a39534698541ca25dca335aa79ef6e42f" title="Getter do atributo nome. " alt="" coords="483,56,614,83"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="classSistemaLinf_a17d5c1f1114a1ed28e17775c134351eb_icgraph.png" border="0" usemap="#classSistemaLinf_a17d5c1f1114a1ed28e17775c134351eb_icgraph" alt=""/></div>
+<map name="classSistemaLinf_a17d5c1f1114a1ed28e17775c134351eb_icgraph" id="classSistemaLinf_a17d5c1f1114a1ed28e17775c134351eb_icgraph">
+<area shape="rect" id="node2" href="classSistemaLinf.html#a2b7a8bb723dfee53ce46e2ddfc170ad5" title="SistemaLinf::_NavegaConta" alt="" coords="228,13,415,39"/>
+<area shape="rect" id="node3" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execução dos sistema. " alt="" coords="463,13,585,39"/>
+<area shape="rect" id="node4" href="Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="633,13,684,39"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="aaeba3f1f325e36dfc8718e1e5eee5e86"></a>
 <div class="memitem">
 <div class="memproto">
@@ -183,19 +328,21 @@ Grafo de chamadas desta função:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSistemaLinf_aaeba3f1f325e36dfc8718e1e5eee5e86_cgraph.png" border="0" usemap="#classSistemaLinf_aaeba3f1f325e36dfc8718e1e5eee5e86_cgraph" alt=""/></div>
 <map name="classSistemaLinf_aaeba3f1f325e36dfc8718e1e5eee5e86_cgraph" id="classSistemaLinf_aaeba3f1f325e36dfc8718e1e5eee5e86_cgraph">
-<area shape="rect" id="node2" href="classSistemaLinf.html#a58e8e35371ac1f5b61f6692508024b43" title="SistemaLinf::LimpaTela" alt="" coords="240,157,399,184"/>
-<area shape="rect" id="node3" href="classGerenteLogin.html#a5abe6312f068245a8757f46005f85faf" title="GerenteLogin::Credencia" alt="" coords="463,208,630,235"/>
-<area shape="rect" id="node13" href="classGerenteLogin.html#a94bdb9e213ffdc0aa3219dad300801cb" title="GerenteLogin::NovoUsuario" alt="" coords="228,259,411,285"/>
-<area shape="rect" id="node4" href="classGerenteBD.html#ae5b9e1254a70db28a14118a9cb7bbabb" title="Verifica a existencia de usuario. " alt="" coords="695,157,873,184"/>
-<area shape="rect" id="node5" href="classGerenteLogin.html#a1c459951cdb69fbb49096d036a932cb0" title="GerenteLogin::ReconheceFace" alt="" coords="683,208,885,235"/>
-<area shape="rect" id="node6" href="classGerenteBD.html#aee848e57a172b20998ada945c2d8f66a" title="Busca um usu�rio no banco de dados. " alt="" coords="695,56,873,83"/>
-<area shape="rect" id="node10" href="classUsuario.html#a51b15e0008a5fa1d0da0da509aa1701e" title="Getter do atributo matricula. " alt="" coords="709,259,859,285"/>
-<area shape="rect" id="node11" href="classUsuario.html#a39534698541ca25dca335aa79ef6e42f" title="Getter do atributo nome. " alt="" coords="719,309,849,336"/>
-<area shape="rect" id="node12" href="classGerenteBD.html#a83307478b300f18ad530bbae7a21c5cb" title="Verifica se a matricula confere com a senha. " alt="" coords="695,107,873,133"/>
-<area shape="rect" id="node7" href="classUsuario.html#a120e068856b0e0a9e0db6e5a7e3c8555" title="Setter do atributo matricula. " alt="" coords="933,5,1081,32"/>
-<area shape="rect" id="node8" href="classUsuario.html#a392412fa31482a0a56fbca53d1f0bbb0" title="Setter do atributo nome. " alt="" coords="942,56,1073,83"/>
-<area shape="rect" id="node9" href="classUsuario.html#a172eab6b5e1cdd16bcf87c1ffec86917" title="Setter do atributo senha. " alt="" coords="941,107,1073,133"/>
-<area shape="rect" id="node14" href="classGerenteBD.html#a63f7f9bfe46b46806b21d5df2a8f34f0" title="Insere um novo usu�rio no banco de dados. " alt="" coords="459,259,635,285"/>
+<area shape="rect" id="node2" href="classSistemaLinf.html#ae02bf5d72ed634c919512e8c80f8ca28" title="SistemaLinf::_LimpaTela" alt="" coords="236,141,403,168"/>
+<area shape="rect" id="node3" href="classGerenteLogin.html#a5abe6312f068245a8757f46005f85faf" title="Gera a instância do usuário que navega no sistema. " alt="" coords="236,192,403,218"/>
+<area shape="rect" id="node14" href="classGerenteLogin.html#a94bdb9e213ffdc0aa3219dad300801cb" title="GerenteLogin::NovoUsuario" alt="" coords="228,369,411,396"/>
+<area shape="rect" id="node4" href="classGerenteBD.html#ae5b9e1254a70db28a14118a9cb7bbabb" title="Verifica a existencia de usuario. " alt="" coords="475,166,652,193"/>
+<area shape="rect" id="node5" href="classGerenteLogin.html#a76770a88d060e2ccd461a743db71fab8" title="Faz a verificação de usuário via webcam. " alt="" coords="459,217,668,244"/>
+<area shape="rect" id="node6" href="classGerenteBD.html#aee848e57a172b20998ada945c2d8f66a" title="Busca um usuário no banco de dados. " alt="" coords="475,420,652,446"/>
+<area shape="rect" id="node10" href="classUsuario.html#a51b15e0008a5fa1d0da0da509aa1701e" title="Getter do atributo matricula. " alt="" coords="716,108,865,134"/>
+<area shape="rect" id="node11" href="classUsuario.html#a39534698541ca25dca335aa79ef6e42f" title="Getter do atributo nome. " alt="" coords="725,268,856,294"/>
+<area shape="rect" id="node12" href="classGerenteBD.html#a83307478b300f18ad530bbae7a21c5cb" title="Verifica se a matricula confere com a senha. " alt="" coords="474,49,653,76"/>
+<area shape="rect" id="node13" href="classGerenteLogin.html#a7ba85f5a3c41ce38e996b60d2ef4eb73" title="Faz a captura de novas fotos do usuário via webcam. " alt="" coords="464,100,663,142"/>
+<area shape="rect" id="node7" href="classUsuario.html#a120e068856b0e0a9e0db6e5a7e3c8555" title="Setter do atributo matricula. " alt="" coords="717,514,865,541"/>
+<area shape="rect" id="node8" href="classUsuario.html#a392412fa31482a0a56fbca53d1f0bbb0" title="Setter do atributo nome. " alt="" coords="725,376,856,402"/>
+<area shape="rect" id="node9" href="classUsuario.html#a172eab6b5e1cdd16bcf87c1ffec86917" title="Setter do atributo senha. " alt="" coords="725,452,857,478"/>
+<area shape="rect" id="node15" href="classGerenteBD.html#a63f7f9bfe46b46806b21d5df2a8f34f0" title="Insere um novo usuário no banco de dados. " alt="" coords="475,318,651,345"/>
+<area shape="rect" id="node16" href="classUsuario.html#a364e3001148916047ee9f74f46b89c67" title="Getter do atributo senha. " alt="" coords="724,318,857,345"/>
 </map>
 </div>
 </p>
@@ -205,8 +352,85 @@ Este é o diagrama das funções que utilizam esta função:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSistemaLinf_aaeba3f1f325e36dfc8718e1e5eee5e86_icgraph.png" border="0" usemap="#classSistemaLinf_aaeba3f1f325e36dfc8718e1e5eee5e86_icgraph" alt=""/></div>
 <map name="classSistemaLinf_aaeba3f1f325e36dfc8718e1e5eee5e86_icgraph" id="classSistemaLinf_aaeba3f1f325e36dfc8718e1e5eee5e86_icgraph">
-<area shape="rect" id="node2" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execu��o dos sistema. " alt="" coords="228,5,351,32"/>
+<area shape="rect" id="node2" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execução dos sistema. " alt="" coords="228,5,351,32"/>
 <area shape="rect" id="node3" href="Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="399,5,449,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa826b0cb1de2201bbb8ee2e9fcae7d48"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SistemaLinf::_ImprimeReservas </td>
+          <td>(</td>
+          <td class="paramtype">vector&lt; <a class="el" href="classReserva.html">Reserva</a> &gt;&#160;</td>
+          <td class="paramname"><em>reservas</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="classSistemaLinf_aa826b0cb1de2201bbb8ee2e9fcae7d48_icgraph.png" border="0" usemap="#classSistemaLinf_aa826b0cb1de2201bbb8ee2e9fcae7d48_icgraph" alt=""/></div>
+<map name="classSistemaLinf_aa826b0cb1de2201bbb8ee2e9fcae7d48_icgraph" id="classSistemaLinf_aa826b0cb1de2201bbb8ee2e9fcae7d48_icgraph">
+<area shape="rect" id="node2" href="classSistemaLinf.html#a349a48f688ee38225cfbdd0c30484a03" title="SistemaLinf::_ReservaLaboratorio" alt="" coords="491,5,709,32"/>
+<area shape="rect" id="node6" href="classSistemaLinf.html#a0414bcc2e81953f87acbb3ca80aab9ab" title="SistemaLinf::_ReservarLab" alt="" coords="263,31,443,57"/>
+<area shape="rect" id="node3" href="classSistemaLinf.html#a2b7a8bb723dfee53ce46e2ddfc170ad5" title="SistemaLinf::_NavegaConta" alt="" coords="757,5,944,32"/>
+<area shape="rect" id="node4" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execução dos sistema. " alt="" coords="992,5,1115,32"/>
+<area shape="rect" id="node5" href="Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1163,5,1213,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae02bf5d72ed634c919512e8c80f8ca28"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SistemaLinf::_LimpaTela </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="classSistemaLinf_ae02bf5d72ed634c919512e8c80f8ca28_icgraph.png" border="0" usemap="#classSistemaLinf_ae02bf5d72ed634c919512e8c80f8ca28_icgraph" alt=""/></div>
+<map name="classSistemaLinf_ae02bf5d72ed634c919512e8c80f8ca28_icgraph" id="classSistemaLinf_ae02bf5d72ed634c919512e8c80f8ca28_icgraph">
+<area shape="rect" id="node2" href="classSistemaLinf.html#aaeba3f1f325e36dfc8718e1e5eee5e86" title="SistemaLinf::_EfetuaLogin" alt="" coords="709,5,883,32"/>
+<area shape="rect" id="node5" href="classSistemaLinf.html#a8a6ab1c1b404f58739b2c99ef6ae95d2" title="SistemaLinf::_Cabecalho" alt="" coords="220,68,388,95"/>
+<area shape="rect" id="node3" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execução dos sistema. " alt="" coords="937,44,1060,71"/>
+<area shape="rect" id="node4" href="Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1108,44,1159,71"/>
+<area shape="rect" id="node6" href="classSistemaLinf.html#a2b7a8bb723dfee53ce46e2ddfc170ad5" title="SistemaLinf::_NavegaConta" alt="" coords="703,81,889,108"/>
+<area shape="rect" id="node7" href="classSistemaLinf.html#a349a48f688ee38225cfbdd0c30484a03" title="SistemaLinf::_ReservaLaboratorio" alt="" coords="436,93,655,120"/>
+<area shape="rect" id="node8" href="classSistemaLinf.html#a17d5c1f1114a1ed28e17775c134351eb" title="SistemaLinf::_EditaDados\lPessoais" alt="" coords="458,145,633,186"/>
 </map>
 </div>
 </p>
@@ -239,9 +463,20 @@ Grafo de chamadas desta função:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSistemaLinf_a2b7a8bb723dfee53ce46e2ddfc170ad5_cgraph.png" border="0" usemap="#classSistemaLinf_a2b7a8bb723dfee53ce46e2ddfc170ad5_cgraph" alt=""/></div>
 <map name="classSistemaLinf_a2b7a8bb723dfee53ce46e2ddfc170ad5_cgraph" id="classSistemaLinf_a2b7a8bb723dfee53ce46e2ddfc170ad5_cgraph">
-<area shape="rect" id="node2" href="classSistemaLinf.html#a58e8e35371ac1f5b61f6692508024b43" title="SistemaLinf::LimpaTela" alt="" coords="240,5,399,32"/>
-<area shape="rect" id="node3" href="classUsuario.html#a39534698541ca25dca335aa79ef6e42f" title="Getter do atributo nome. " alt="" coords="254,56,385,83"/>
-<area shape="rect" id="node4" href="classSistemaLinf.html#a21363263d17f16e33735f536ceef87e1" title="SistemaLinf::_Opcoes" alt="" coords="244,107,395,133"/>
+<area shape="rect" id="node2" href="classSistemaLinf.html#a8a6ab1c1b404f58739b2c99ef6ae95d2" title="SistemaLinf::_Cabecalho" alt="" coords="526,31,694,57"/>
+<area shape="rect" id="node5" href="classSistemaLinf.html#a349a48f688ee38225cfbdd0c30484a03" title="SistemaLinf::_ReservaLaboratorio" alt="" coords="240,187,459,213"/>
+<area shape="rect" id="node14" href="classSistemaLinf.html#a4bcddb736d984cad7feb2d0b16f91d34" title="SistemaLinf::_OpcaoInvalida" alt="" coords="515,81,705,108"/>
+<area shape="rect" id="node15" href="classSistemaLinf.html#a17d5c1f1114a1ed28e17775c134351eb" title="SistemaLinf::_EditaDados\lPessoais" alt="" coords="262,70,437,111"/>
+<area shape="rect" id="node3" href="classSistemaLinf.html#ae02bf5d72ed634c919512e8c80f8ca28" title="SistemaLinf::_LimpaTela" alt="" coords="783,5,949,32"/>
+<area shape="rect" id="node4" href="classUsuario.html#a39534698541ca25dca335aa79ef6e42f" title="Getter do atributo nome. " alt="" coords="801,56,931,83"/>
+<area shape="rect" id="node6" href="classSistemaLinf.html#aa826b0cb1de2201bbb8ee2e9fcae7d48" title="SistemaLinf::_ImprimeReservas" alt="" coords="761,132,971,159"/>
+<area shape="rect" id="node7" href="classGerenteBD.html#ac4a3132cc8f79fd3472358378c1cfe0c" title="GerenteBD::BuscaReserva" alt="" coords="775,183,957,209"/>
+<area shape="rect" id="node9" href="classUsuario.html#a51b15e0008a5fa1d0da0da509aa1701e" title="Getter do atributo matricula. " alt="" coords="791,284,941,311"/>
+<area shape="rect" id="node10" href="classSistemaLinf.html#a0414bcc2e81953f87acbb3ca80aab9ab" title="SistemaLinf::_ReservarLab" alt="" coords="520,233,700,260"/>
+<area shape="rect" id="node12" href="classSistemaLinf.html#ac4312005ce0674d918f89b22836a92ee" title="SistemaLinf::_CancelarReserva" alt="" coords="507,335,713,361"/>
+<area shape="rect" id="node13" href="classGerenteBD.html#a4ddc8a64d951a32cc19327ce99bdc1a8" title="GerenteBD::CommitReserva" alt="" coords="515,385,705,412"/>
+<area shape="rect" id="node8" href="classGerenteBD.html#ad0207347ebe1fc29ebfd11cec64e5211" title="GerenteBD::DataComReserva" alt="" coords="1019,208,1219,235"/>
+<area shape="rect" id="node11" href="classGerenteBD.html#a34f72b9c2114723a55c4582a73ce0afa" title="GerenteBD::InsereReserva" alt="" coords="776,233,956,260"/>
 </map>
 </div>
 </p>
@@ -251,7 +486,7 @@ Este é o diagrama das funções que utilizam esta função:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSistemaLinf_a2b7a8bb723dfee53ce46e2ddfc170ad5_icgraph.png" border="0" usemap="#classSistemaLinf_a2b7a8bb723dfee53ce46e2ddfc170ad5_icgraph" alt=""/></div>
 <map name="classSistemaLinf_a2b7a8bb723dfee53ce46e2ddfc170ad5_icgraph" id="classSistemaLinf_a2b7a8bb723dfee53ce46e2ddfc170ad5_icgraph">
-<area shape="rect" id="node2" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execu��o dos sistema. " alt="" coords="240,5,363,32"/>
+<area shape="rect" id="node2" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execução dos sistema. " alt="" coords="240,5,363,32"/>
 <area shape="rect" id="node3" href="Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="411,5,461,32"/>
 </map>
 </div>
@@ -259,7 +494,7 @@ Este é o diagrama das funções que utilizam esta função:</div>
 
 </div>
 </div>
-<a class="anchor" id="a21363263d17f16e33735f536ceef87e1"></a>
+<a class="anchor" id="a4bcddb736d984cad7feb2d0b16f91d34"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -267,7 +502,7 @@ Este é o diagrama das funções que utilizam esta função:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int SistemaLinf::_Opcoes </td>
+          <td class="memname">void SistemaLinf::_OpcaoInvalida </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -283,18 +518,20 @@ Este é o diagrama das funções que utilizam esta função:</div>
 <p><div class="dynheader">
 Este é o diagrama das funções que utilizam esta função:</div>
 <div class="dyncontent">
-<div class="center"><img src="classSistemaLinf_a21363263d17f16e33735f536ceef87e1_icgraph.png" border="0" usemap="#classSistemaLinf_a21363263d17f16e33735f536ceef87e1_icgraph" alt=""/></div>
-<map name="classSistemaLinf_a21363263d17f16e33735f536ceef87e1_icgraph" id="classSistemaLinf_a21363263d17f16e33735f536ceef87e1_icgraph">
-<area shape="rect" id="node2" href="classSistemaLinf.html#a2b7a8bb723dfee53ce46e2ddfc170ad5" title="SistemaLinf::_NavegaConta" alt="" coords="204,5,391,32"/>
-<area shape="rect" id="node3" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execu��o dos sistema. " alt="" coords="439,5,561,32"/>
-<area shape="rect" id="node4" href="Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="609,5,660,32"/>
+<div class="center"><img src="classSistemaLinf_a4bcddb736d984cad7feb2d0b16f91d34_icgraph.png" border="0" usemap="#classSistemaLinf_a4bcddb736d984cad7feb2d0b16f91d34_icgraph" alt=""/></div>
+<map name="classSistemaLinf_a4bcddb736d984cad7feb2d0b16f91d34_icgraph" id="classSistemaLinf_a4bcddb736d984cad7feb2d0b16f91d34_icgraph">
+<area shape="rect" id="node2" href="classSistemaLinf.html#a2b7a8bb723dfee53ce46e2ddfc170ad5" title="SistemaLinf::_NavegaConta" alt="" coords="509,24,696,50"/>
+<area shape="rect" id="node5" href="classSistemaLinf.html#a349a48f688ee38225cfbdd0c30484a03" title="SistemaLinf::_ReservaLaboratorio" alt="" coords="243,24,461,50"/>
+<area shape="rect" id="node6" href="classSistemaLinf.html#a17d5c1f1114a1ed28e17775c134351eb" title="SistemaLinf::_EditaDados\lPessoais" alt="" coords="265,75,439,116"/>
+<area shape="rect" id="node3" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execução dos sistema. " alt="" coords="744,24,867,50"/>
+<area shape="rect" id="node4" href="Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="915,24,965,50"/>
 </map>
 </div>
 </p>
 
 </div>
 </div>
-<a class="anchor" id="a58e8e35371ac1f5b61f6692508024b43"></a>
+<a class="anchor" id="a349a48f688ee38225cfbdd0c30484a03"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -302,7 +539,7 @@ Este é o diagrama das funções que utilizam esta função:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SistemaLinf::LimpaTela </td>
+          <td class="memname">void SistemaLinf::_ReservaLaboratorio </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -316,17 +553,110 @@ Este é o diagrama das funções que utilizam esta função:</div>
 </div><div class="memdoc">
 
 <p><div class="dynheader">
-Este é o diagrama das funções que utilizam esta função:</div>
+Grafo de chamadas desta função:</div>
 <div class="dyncontent">
-<div class="center"><img src="classSistemaLinf_a58e8e35371ac1f5b61f6692508024b43_icgraph.png" border="0" usemap="#classSistemaLinf_a58e8e35371ac1f5b61f6692508024b43_icgraph" alt=""/></div>
-<map name="classSistemaLinf_a58e8e35371ac1f5b61f6692508024b43_icgraph" id="classSistemaLinf_a58e8e35371ac1f5b61f6692508024b43_icgraph">
-<area shape="rect" id="node2" href="classSistemaLinf.html#a2b7a8bb723dfee53ce46e2ddfc170ad5" title="SistemaLinf::_NavegaConta" alt="" coords="212,5,399,32"/>
-<area shape="rect" id="node5" href="classSistemaLinf.html#aaeba3f1f325e36dfc8718e1e5eee5e86" title="SistemaLinf::_EfetuaLogin" alt="" coords="218,56,393,83"/>
-<area shape="rect" id="node3" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execu��o dos sistema. " alt="" coords="447,31,569,57"/>
-<area shape="rect" id="node4" href="Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="617,31,668,57"/>
+<div class="center"><img src="classSistemaLinf_a349a48f688ee38225cfbdd0c30484a03_cgraph.png" border="0" usemap="#classSistemaLinf_a349a48f688ee38225cfbdd0c30484a03_cgraph" alt=""/></div>
+<map name="classSistemaLinf_a349a48f688ee38225cfbdd0c30484a03_cgraph" id="classSistemaLinf_a349a48f688ee38225cfbdd0c30484a03_cgraph">
+<area shape="rect" id="node2" href="classSistemaLinf.html#a8a6ab1c1b404f58739b2c99ef6ae95d2" title="SistemaLinf::_Cabecalho" alt="" coords="291,56,459,83"/>
+<area shape="rect" id="node5" href="classSistemaLinf.html#aa826b0cb1de2201bbb8ee2e9fcae7d48" title="SistemaLinf::_ImprimeReservas" alt="" coords="527,107,736,133"/>
+<area shape="rect" id="node6" href="classGerenteBD.html#ac4a3132cc8f79fd3472358378c1cfe0c" title="GerenteBD::BuscaReserva" alt="" coords="541,157,722,184"/>
+<area shape="rect" id="node8" href="classUsuario.html#a51b15e0008a5fa1d0da0da509aa1701e" title="Getter do atributo matricula. " alt="" coords="557,259,706,285"/>
+<area shape="rect" id="node9" href="classSistemaLinf.html#a0414bcc2e81953f87acbb3ca80aab9ab" title="SistemaLinf::_ReservarLab" alt="" coords="285,208,465,235"/>
+<area shape="rect" id="node11" href="classSistemaLinf.html#ac4312005ce0674d918f89b22836a92ee" title="SistemaLinf::_CancelarReserva" alt="" coords="272,309,479,336"/>
+<area shape="rect" id="node12" href="classGerenteBD.html#a4ddc8a64d951a32cc19327ce99bdc1a8" title="GerenteBD::CommitReserva" alt="" coords="280,360,471,387"/>
+<area shape="rect" id="node13" href="classSistemaLinf.html#a4bcddb736d984cad7feb2d0b16f91d34" title="SistemaLinf::_OpcaoInvalida" alt="" coords="281,411,470,437"/>
+<area shape="rect" id="node3" href="classSistemaLinf.html#ae02bf5d72ed634c919512e8c80f8ca28" title="SistemaLinf::_LimpaTela" alt="" coords="548,5,715,32"/>
+<area shape="rect" id="node4" href="classUsuario.html#a39534698541ca25dca335aa79ef6e42f" title="Getter do atributo nome. " alt="" coords="566,56,697,83"/>
+<area shape="rect" id="node7" href="classGerenteBD.html#ad0207347ebe1fc29ebfd11cec64e5211" title="GerenteBD::DataComReserva" alt="" coords="784,183,984,209"/>
+<area shape="rect" id="node10" href="classGerenteBD.html#a34f72b9c2114723a55c4582a73ce0afa" title="GerenteBD::InsereReserva" alt="" coords="541,208,721,235"/>
 </map>
 </div>
 </p>
+
+<p><div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="classSistemaLinf_a349a48f688ee38225cfbdd0c30484a03_icgraph.png" border="0" usemap="#classSistemaLinf_a349a48f688ee38225cfbdd0c30484a03_icgraph" alt=""/></div>
+<map name="classSistemaLinf_a349a48f688ee38225cfbdd0c30484a03_icgraph" id="classSistemaLinf_a349a48f688ee38225cfbdd0c30484a03_icgraph">
+<area shape="rect" id="node2" href="classSistemaLinf.html#a2b7a8bb723dfee53ce46e2ddfc170ad5" title="SistemaLinf::_NavegaConta" alt="" coords="272,5,459,32"/>
+<area shape="rect" id="node3" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execução dos sistema. " alt="" coords="507,5,629,32"/>
+<area shape="rect" id="node4" href="Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="677,5,728,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0414bcc2e81953f87acbb3ca80aab9ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SistemaLinf::_ReservarLab </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Grafo de chamadas desta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="classSistemaLinf_a0414bcc2e81953f87acbb3ca80aab9ab_cgraph.png" border="0" usemap="#classSistemaLinf_a0414bcc2e81953f87acbb3ca80aab9ab_cgraph" alt=""/></div>
+<map name="classSistemaLinf_a0414bcc2e81953f87acbb3ca80aab9ab_cgraph" id="classSistemaLinf_a0414bcc2e81953f87acbb3ca80aab9ab_cgraph">
+<area shape="rect" id="node2" href="classGerenteBD.html#ac4a3132cc8f79fd3472358378c1cfe0c" title="GerenteBD::BuscaReserva" alt="" coords="247,5,429,32"/>
+<area shape="rect" id="node4" href="classSistemaLinf.html#aa826b0cb1de2201bbb8ee2e9fcae7d48" title="SistemaLinf::_ImprimeReservas" alt="" coords="233,56,443,83"/>
+<area shape="rect" id="node5" href="classUsuario.html#a51b15e0008a5fa1d0da0da509aa1701e" title="Getter do atributo matricula. " alt="" coords="263,107,413,133"/>
+<area shape="rect" id="node6" href="classGerenteBD.html#a34f72b9c2114723a55c4582a73ce0afa" title="GerenteBD::InsereReserva" alt="" coords="248,157,428,184"/>
+<area shape="rect" id="node3" href="classGerenteBD.html#ad0207347ebe1fc29ebfd11cec64e5211" title="GerenteBD::DataComReserva" alt="" coords="491,81,691,108"/>
+</map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Este é o diagrama das funções que utilizam esta função:</div>
+<div class="dyncontent">
+<div class="center"><img src="classSistemaLinf_a0414bcc2e81953f87acbb3ca80aab9ab_icgraph.png" border="0" usemap="#classSistemaLinf_a0414bcc2e81953f87acbb3ca80aab9ab_icgraph" alt=""/></div>
+<map name="classSistemaLinf_a0414bcc2e81953f87acbb3ca80aab9ab_icgraph" id="classSistemaLinf_a0414bcc2e81953f87acbb3ca80aab9ab_icgraph">
+<area shape="rect" id="node2" href="classSistemaLinf.html#a349a48f688ee38225cfbdd0c30484a03" title="SistemaLinf::_ReservaLaboratorio" alt="" coords="233,5,452,32"/>
+<area shape="rect" id="node3" href="classSistemaLinf.html#a2b7a8bb723dfee53ce46e2ddfc170ad5" title="SistemaLinf::_NavegaConta" alt="" coords="500,5,687,32"/>
+<area shape="rect" id="node4" href="classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execução dos sistema. " alt="" coords="735,5,857,32"/>
+<area shape="rect" id="node5" href="Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="905,5,956,32"/>
+</map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a65f9a06a610c866df4231d29c60282c9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SistemaLinf::_VerificaReserva </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -343,29 +673,41 @@ Este é o diagrama das funções que utilizam esta função:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Ambiente de execu��o dos sistema. </p>
+<p>Ambiente de execução dos sistema. </p>
 
 <p><div class="dynheader">
 Grafo de chamadas desta função:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSistemaLinf_abdde84e8ce18a7be36ea9546cf7ff5ed_cgraph.png" border="0" usemap="#classSistemaLinf_abdde84e8ce18a7be36ea9546cf7ff5ed_cgraph" alt=""/></div>
 <map name="classSistemaLinf_abdde84e8ce18a7be36ea9546cf7ff5ed_cgraph" id="classSistemaLinf_abdde84e8ce18a7be36ea9546cf7ff5ed_cgraph">
-<area shape="rect" id="node2" href="classSistemaLinf.html#aaeba3f1f325e36dfc8718e1e5eee5e86" title="SistemaLinf::_EfetuaLogin" alt="" coords="182,247,357,273"/>
-<area shape="rect" id="node16" href="classSistemaLinf.html#a2b7a8bb723dfee53ce46e2ddfc170ad5" title="SistemaLinf::_NavegaConta" alt="" coords="176,323,363,349"/>
-<area shape="rect" id="node3" href="classSistemaLinf.html#a58e8e35371ac1f5b61f6692508024b43" title="SistemaLinf::LimpaTela" alt="" coords="423,284,581,311"/>
-<area shape="rect" id="node4" href="classGerenteLogin.html#a5abe6312f068245a8757f46005f85faf" title="GerenteLogin::Credencia" alt="" coords="646,183,813,209"/>
-<area shape="rect" id="node14" href="classGerenteLogin.html#a94bdb9e213ffdc0aa3219dad300801cb" title="GerenteLogin::NovoUsuario" alt="" coords="411,233,593,260"/>
-<area shape="rect" id="node5" href="classGerenteBD.html#ae5b9e1254a70db28a14118a9cb7bbabb" title="Verifica a existencia de usuario. " alt="" coords="878,157,1055,184"/>
-<area shape="rect" id="node6" href="classGerenteLogin.html#a1c459951cdb69fbb49096d036a932cb0" title="GerenteLogin::ReconheceFace" alt="" coords="865,208,1068,235"/>
-<area shape="rect" id="node7" href="classGerenteBD.html#aee848e57a172b20998ada945c2d8f66a" title="Busca um usu�rio no banco de dados. " alt="" coords="878,56,1055,83"/>
-<area shape="rect" id="node11" href="classUsuario.html#a51b15e0008a5fa1d0da0da509aa1701e" title="Getter do atributo matricula. " alt="" coords="892,259,1041,285"/>
-<area shape="rect" id="node12" href="classUsuario.html#a39534698541ca25dca335aa79ef6e42f" title="Getter do atributo nome. " alt="" coords="901,309,1032,336"/>
-<area shape="rect" id="node13" href="classGerenteBD.html#a83307478b300f18ad530bbae7a21c5cb" title="Verifica se a matricula confere com a senha. " alt="" coords="877,107,1056,133"/>
-<area shape="rect" id="node8" href="classUsuario.html#a120e068856b0e0a9e0db6e5a7e3c8555" title="Setter do atributo matricula. " alt="" coords="1116,5,1264,32"/>
-<area shape="rect" id="node9" href="classUsuario.html#a392412fa31482a0a56fbca53d1f0bbb0" title="Setter do atributo nome. " alt="" coords="1125,56,1255,83"/>
-<area shape="rect" id="node10" href="classUsuario.html#a172eab6b5e1cdd16bcf87c1ffec86917" title="Setter do atributo senha. " alt="" coords="1124,107,1256,133"/>
-<area shape="rect" id="node15" href="classGerenteBD.html#a63f7f9bfe46b46806b21d5df2a8f34f0" title="Insere um novo usu�rio no banco de dados. " alt="" coords="641,259,817,285"/>
-<area shape="rect" id="node17" href="classSistemaLinf.html#a21363263d17f16e33735f536ceef87e1" title="SistemaLinf::_Opcoes" alt="" coords="427,335,577,361"/>
+<area shape="rect" id="node2" href="classSistemaLinf.html#aaeba3f1f325e36dfc8718e1e5eee5e86" title="SistemaLinf::_EfetuaLogin" alt="" coords="182,452,357,479"/>
+<area shape="rect" id="node11" href="classUsuario.html#a51b15e0008a5fa1d0da0da509aa1701e" title="Getter do atributo matricula. " alt="" coords="965,623,1114,649"/>
+<area shape="rect" id="node18" href="classSistemaLinf.html#a2b7a8bb723dfee53ce46e2ddfc170ad5" title="SistemaLinf::_NavegaConta" alt="" coords="176,732,363,759"/>
+<area shape="rect" id="node3" href="classSistemaLinf.html#ae02bf5d72ed634c919512e8c80f8ca28" title="SistemaLinf::_LimpaTela" alt="" coords="956,547,1123,573"/>
+<area shape="rect" id="node4" href="classGerenteLogin.html#a5abe6312f068245a8757f46005f85faf" title="Gera a instância do usuário que navega no sistema. " alt="" coords="437,383,603,409"/>
+<area shape="rect" id="node15" href="classGerenteLogin.html#a94bdb9e213ffdc0aa3219dad300801cb" title="GerenteLogin::NovoUsuario" alt="" coords="429,151,611,177"/>
+<area shape="rect" id="node5" href="classGerenteBD.html#ae5b9e1254a70db28a14118a9cb7bbabb" title="Verifica a existencia de usuario. " alt="" coords="693,303,871,329"/>
+<area shape="rect" id="node6" href="classGerenteLogin.html#a76770a88d060e2ccd461a743db71fab8" title="Faz a verificação de usuário via webcam. " alt="" coords="677,353,887,380"/>
+<area shape="rect" id="node7" href="classGerenteBD.html#aee848e57a172b20998ada945c2d8f66a" title="Busca um usuário no banco de dados. " alt="" coords="693,100,871,127"/>
+<area shape="rect" id="node12" href="classUsuario.html#a39534698541ca25dca335aa79ef6e42f" title="Getter do atributo nome. " alt="" coords="974,252,1105,279"/>
+<area shape="rect" id="node13" href="classGerenteBD.html#a83307478b300f18ad530bbae7a21c5cb" title="Verifica se a matricula confere com a senha. " alt="" coords="693,471,871,497"/>
+<area shape="rect" id="node14" href="classGerenteLogin.html#a7ba85f5a3c41ce38e996b60d2ef4eb73" title="Faz a captura de novas fotos do usuário via webcam. " alt="" coords="683,405,881,446"/>
+<area shape="rect" id="node8" href="classUsuario.html#a120e068856b0e0a9e0db6e5a7e3c8555" title="Setter do atributo matricula. " alt="" coords="965,144,1113,171"/>
+<area shape="rect" id="node9" href="classUsuario.html#a392412fa31482a0a56fbca53d1f0bbb0" title="Setter do atributo nome. " alt="" coords="974,5,1105,32"/>
+<area shape="rect" id="node10" href="classUsuario.html#a172eab6b5e1cdd16bcf87c1ffec86917" title="Setter do atributo senha. " alt="" coords="973,68,1105,95"/>
+<area shape="rect" id="node16" href="classGerenteBD.html#a63f7f9bfe46b46806b21d5df2a8f34f0" title="Insere um novo usuário no banco de dados. " alt="" coords="694,201,870,228"/>
+<area shape="rect" id="node17" href="classUsuario.html#a364e3001148916047ee9f74f46b89c67" title="Getter do atributo senha. " alt="" coords="973,201,1106,228"/>
+<area shape="rect" id="node19" href="classSistemaLinf.html#a8a6ab1c1b404f58739b2c99ef6ae95d2" title="SistemaLinf::_Cabecalho" alt="" coords="698,673,866,700"/>
+<area shape="rect" id="node20" href="classSistemaLinf.html#a349a48f688ee38225cfbdd0c30484a03" title="SistemaLinf::_ReservaLaboratorio" alt="" coords="411,841,629,868"/>
+<area shape="rect" id="node28" href="classSistemaLinf.html#a4bcddb736d984cad7feb2d0b16f91d34" title="SistemaLinf::_OpcaoInvalida" alt="" coords="687,724,877,751"/>
+<area shape="rect" id="node29" href="classSistemaLinf.html#a17d5c1f1114a1ed28e17775c134351eb" title="SistemaLinf::_EditaDados\lPessoais" alt="" coords="433,725,607,766"/>
+<area shape="rect" id="node21" href="classSistemaLinf.html#aa826b0cb1de2201bbb8ee2e9fcae7d48" title="SistemaLinf::_ImprimeReservas" alt="" coords="935,1028,1144,1055"/>
+<area shape="rect" id="node22" href="classGerenteBD.html#ac4a3132cc8f79fd3472358378c1cfe0c" title="GerenteBD::BuscaReserva" alt="" coords="949,927,1130,953"/>
+<area shape="rect" id="node24" href="classSistemaLinf.html#a0414bcc2e81953f87acbb3ca80aab9ab" title="SistemaLinf::_ReservarLab" alt="" coords="692,977,872,1004"/>
+<area shape="rect" id="node26" href="classSistemaLinf.html#ac4312005ce0674d918f89b22836a92ee" title="SistemaLinf::_CancelarReserva" alt="" coords="679,927,885,953"/>
+<area shape="rect" id="node27" href="classGerenteBD.html#a4ddc8a64d951a32cc19327ce99bdc1a8" title="GerenteBD::CommitReserva" alt="" coords="687,825,877,852"/>
+<area shape="rect" id="node23" href="classGerenteBD.html#ad0207347ebe1fc29ebfd11cec64e5211" title="GerenteBD::DataComReserva" alt="" coords="1192,952,1392,979"/>
+<area shape="rect" id="node25" href="classGerenteBD.html#a34f72b9c2114723a55c4582a73ce0afa" title="GerenteBD::InsereReserva" alt="" coords="949,977,1129,1004"/>
 </map>
 </div>
 </p>
@@ -444,8 +786,8 @@ Este é o diagrama das funções que utilizam esta função:</div>
 </div>
 </div>
 <hr/>A documentação para esta classe foi gerada a partir dos seguintes ficheiros:<ul>
-<li>solucaoCpp/projetoFinalTP1/include/<a class="el" href="SistemaLinf_8h_source.html">SistemaLinf.h</a></li>
-<li>solucaoCpp/projetoFinalTP1/src/<a class="el" href="SistemaLinf_8cpp.html">SistemaLinf.cpp</a></li>
+<li>include/<a class="el" href="SistemaLinf_8h_source.html">SistemaLinf.h</a></li>
+<li>src/<a class="el" href="SistemaLinf_8cpp.html">SistemaLinf.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

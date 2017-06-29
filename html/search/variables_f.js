@@ -1,13 +1,11 @@
 var searchData=
 [
   ['senha',['senha',['../classUsuario.html#a99d6b6876b9118121cb9171dde26cc44',1,'Usuario']]],
-  ['separator',['SEPARATOR',['../namespacecria-fotos-csv.html#afa662db5d19c1e8c833fb7d597d9d52d',1,'cria-fotos-csv']]],
   ['set_5fauthorizer',['set_authorizer',['../structsqlite3__api__routines.html#aa6e1cc5460d34cd124d1a56f09765590',1,'sqlite3_api_routines']]],
   ['set_5fauxdata',['set_auxdata',['../structsqlite3__api__routines.html#a9e2419b4ef954a24408d3c12fe2b1dd7',1,'sqlite3_api_routines']]],
   ['set_5flast_5finsert_5frowid',['set_last_insert_rowid',['../structsqlite3__api__routines.html#a91032b40e6e5987b091bcc5658fea445',1,'sqlite3_api_routines']]],
   ['sleep',['sleep',['../structsqlite3__api__routines.html#a87cb2a664bb94f1a96fd4c3bf02a5e25',1,'sqlite3_api_routines']]],
   ['snprintf',['snprintf',['../structsqlite3__api__routines.html#ad038a8026d6c9026284fe6a15fef7a72',1,'sqlite3_api_routines']]],
-  ['sobrenome',['sobrenome',['../classLista.html#a996b22320b20360a7a77c8e39c1f0c7f',1,'Lista']]],
   ['soft_5fheap_5flimit',['soft_heap_limit',['../structsqlite3__api__routines.html#a720a37e18110008f32c32b43e6df7bd6',1,'sqlite3_api_routines']]],
   ['soft_5fheap_5flimit64',['soft_heap_limit64',['../structsqlite3__api__routines.html#ab3c891f0430b0a79449e16553fe2f7eb',1,'sqlite3_api_routines']]],
   ['sourceid',['sourceid',['../structsqlite3__api__routines.html#ad1314899ed69b8d423c6418b51e9c0ba',1,'sqlite3_api_routines']]],
@@ -25,7 +23,6 @@ var searchData=
   ['stricmp',['stricmp',['../structsqlite3__api__routines.html#aa6c2af28787384ae1f266ba2d7d97972',1,'sqlite3_api_routines']]],
   ['strlike',['strlike',['../structsqlite3__api__routines.html#aeb83edd8809c64405e7a4546721a6d07',1,'sqlite3_api_routines']]],
   ['strnicmp',['strnicmp',['../structsqlite3__api__routines.html#afae159e66af1ef44594688fc0c5776d6',1,'sqlite3_api_routines']]],
-  ['subject_5fpath',['subject_path',['../namespacecria-fotos-csv.html#a05372be225098a1168598393d1f9b445',1,'cria-fotos-csv']]],
   ['system_5ferrno',['system_errno',['../structsqlite3__api__routines.html#a47c5c8b23150912e014dd155cf8f4ddd',1,'sqlite3_api_routines']]],
   ['szosfile',['szOsFile',['../structsqlite3__vfs.html#a549399081342d61134b6398562a0a997',1,'sqlite3_vfs']]]
 ];

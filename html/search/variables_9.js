@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['label',['label',['../namespacecria-fotos-csv.html#a1420da85bdc3556dfe3dd2baa9488923',1,'cria-fotos-csv']]],
+  ['laboratorio',['laboratorio',['../classReserva.html#aa099427aa758d5b0dd0c8df5bd2ac963',1,'Reserva']]],
   ['last_5finsert_5frowid',['last_insert_rowid',['../structsqlite3__api__routines.html#a6e69f8e7d32673cf778b58d0856e6dc7',1,'sqlite3_api_routines']]],
   ['libversion',['libversion',['../structsqlite3__api__routines.html#ac60b467b55897230bf12dc593ca561e8',1,'sqlite3_api_routines']]],
   ['libversion_5fnumber',['libversion_number',['../structsqlite3__api__routines.html#ad33f785fe5f26b534a570c9055a34858',1,'sqlite3_api_routines']]],

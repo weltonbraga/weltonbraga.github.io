@@ -1,17 +1,13 @@
 var searchData=
 [
   ['cancel_5fauto_5fextension',['cancel_auto_extension',['../structsqlite3__api__routines.html#ad2af85260429714c4bde212f2d0f0516',1,'sqlite3_api_routines']]],
-  ['caracracha',['CaraCracha',['../classCaraCracha.html',1,'CaraCracha'],['../classCaraCracha.html#a58350b82c0281f6b4ce8c369601fa91b',1,'CaraCracha::CaraCracha()']]],
-  ['caracracha_2ecpp',['CaraCracha.cpp',['../CaraCracha_8cpp.html',1,'']]],
-  ['caracracha_2eh',['CaraCracha.h',['../CaraCracha_8h.html',1,'']]],
+  ['cancelareserva',['CancelaReserva',['../classGerenteBD.html#a1a9a1e4a2aea21f722403f55ede6901a',1,'GerenteBD']]],
   ['changes',['changes',['../structsqlite3__api__routines.html#aef4d7748f5708731e0aaf54dbfbbec33',1,'sqlite3_api_routines']]],
   ['checausuario',['ChecaUsuario',['../classGerenteBD.html#a83307478b300f18ad530bbae7a21c5cb',1,'GerenteBD']]],
   ['clear_5fbindings',['clear_bindings',['../structsqlite3__api__routines.html#a029f84e8bb05f0274c728b45668871b5',1,'sqlite3_api_routines']]],
   ['close',['close',['../structsqlite3__api__routines.html#a5c30292eef0130d7e8a408c4e3396012',1,'sqlite3_api_routines']]],
   ['close_5fv2',['close_v2',['../structsqlite3__api__routines.html#abb98b8486cbe7d739b8840d3d90baa30',1,'sqlite3_api_routines']]],
-  ['cmake_5fminimum_5frequired',['cmake_minimum_required',['../reconhece_2CMakeLists_8txt.html#a71177b62188868be0889a1f62df9ee8c',1,'cmake_minimum_required(VERSION 2.8) project(reconhece) find_package(OpenCV REQUIRED) add_executable(reconhece reconhece.cpp) target_link_libraries(reconhece $:&#160;CMakeLists.txt'],['../tira-fotos_2CMakeLists_8txt.html#a16cb22766b19bee909db4a49056b3d94',1,'cmake_minimum_required(VERSION 2.8) project(TiraFoto) find_package(OpenCV REQUIRED) add_executable(TiraFoto TiraFoto.cpp) target_link_libraries(TiraFoto $:&#160;CMakeLists.txt']]],
-  ['cmakelists_2etxt',['CMakeLists.txt',['../reconhece_2CMakeLists_8txt.html',1,'']]],
-  ['cmakelists_2etxt',['CMakeLists.txt',['../tira-fotos_2CMakeLists_8txt.html',1,'']]],
+  ['codigoreserva',['codigoReserva',['../classGerenteBD.html#a6358e9e26a2733db9b72231f0f3edf7c',1,'GerenteBD']]],
   ['collation_5fneeded',['collation_needed',['../structsqlite3__api__routines.html#abdb2d9029b65f0027f3f072775c54694',1,'sqlite3_api_routines']]],
   ['collation_5fneeded16',['collation_needed16',['../structsqlite3__api__routines.html#a222a9d16663fc094b39705c451b8e21c',1,'sqlite3_api_routines']]],
   ['column_5fblob',['column_blob',['../structsqlite3__api__routines.html#aea28365a58adb937fbdf3983fe080e1a',1,'sqlite3_api_routines']]],
@@ -37,6 +33,7 @@ var searchData=
   ['column_5fvalue',['column_value',['../structsqlite3__api__routines.html#a1ca935310e3637179f857791ccb42116',1,'sqlite3_api_routines']]],
   ['colused',['colUsed',['../structsqlite3__index__info.html#a99787169e2f78c0728bdb339c4107a2e',1,'sqlite3_index_info']]],
   ['commit_5fhook',['commit_hook',['../structsqlite3__api__routines.html#a906bf080c41a7b3379866e08fe9f3db8',1,'sqlite3_api_routines']]],
+  ['commitreserva',['CommitReserva',['../classGerenteBD.html#a4ddc8a64d951a32cc19327ce99bdc1a8',1,'GerenteBD']]],
   ['compileoption_5fget',['compileoption_get',['../structsqlite3__api__routines.html#a35b3c2f3a3e3bbb1f712eb6b505cfb32',1,'sqlite3_api_routines']]],
   ['compileoption_5fused',['compileoption_used',['../structsqlite3__api__routines.html#adf40a6ff73a45b6f0d99628860b27565',1,'sqlite3_api_routines']]],
   ['complete',['complete',['../structsqlite3__api__routines.html#acf6be6ede31fda32f4f0193aafce0ba3',1,'sqlite3_api_routines']]],
@@ -50,8 +47,5 @@ var searchData=
   ['create_5ffunction_5fv2',['create_function_v2',['../structsqlite3__api__routines.html#aaaefe1980584ef9d0c6d22503d68e926',1,'sqlite3_api_routines']]],
   ['create_5fmodule',['create_module',['../structsqlite3__api__routines.html#a0d2bee02b4c2ce95aa3ae6d4b904bff6',1,'sqlite3_api_routines']]],
   ['create_5fmodule_5fv2',['create_module_v2',['../structsqlite3__api__routines.html#aa460b2835f8b644e463842963b98f707',1,'sqlite3_api_routines']]],
-  ['credencia',['Credencia',['../classGerenteLogin.html#a5abe6312f068245a8757f46005f85faf',1,'GerenteLogin']]],
-  ['cria_2dfotos_2dcsv',['cria-fotos-csv',['../namespacecria-fotos-csv.html',1,'']]],
-  ['cria_2dfotos_2dcsv_2epy',['cria-fotos-csv.py',['../cria-fotos-csv_8py.html',1,'']]],
-  ['criaobj',['criaObj',['../functions_8cpp.html#adfebf4e388856f07d91784e95d0fb1ee',1,'criaObj(signed long long int numero, string nome, string sobrenome):&#160;functions.cpp'],['../lib_8h.html#af98383973aa4cb7fe97f0a504f43a958',1,'criaObj(signed long long int numero, std::string nome, std::string sobrenome):&#160;lib.h']]]
+  ['credencia',['Credencia',['../classGerenteLogin.html#a5abe6312f068245a8757f46005f85faf',1,'GerenteLogin']]]
 ];

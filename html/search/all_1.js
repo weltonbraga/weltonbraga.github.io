@@ -1,8 +1,6 @@
 var searchData=
 [
   ['a',['a',['../structFts5PhraseIter.html#a335969d1ac0fcbb94173c472a3f179ae',1,'Fts5PhraseIter']]],
-  ['a_20fazer_2etxt',['A fazer.txt',['../A_01fazer_8txt.html',1,'']]],
-  ['abs_5fpath',['abs_path',['../namespacecria-fotos-csv.html#ac143c9a7cd521bb7475d602e5792b9b2',1,'cria-fotos-csv']]],
   ['aconstraint',['aConstraint',['../structsqlite3__index__info.html#a634aa93834e2b47acf34454746c0f248',1,'sqlite3_index_info']]],
   ['aconstraintusage',['aConstraintUsage',['../structsqlite3__index__info.html#a79b8a969dd7d582fc2ea3c0fbc5adb56',1,'sqlite3_index_info']]],
   ['acoord',['aCoord',['../structsqlite3__rtree__query__info.html#a9d6e605e62fcf49d57dfc0d192076542',1,'sqlite3_rtree_query_info']]],

@@ -1,9 +1,12 @@
 <map id="Usuario::GetNome" name="Usuario::GetNome">
-<area shape="rect" id="node2" href="$classGerenteBD.html#a63f7f9bfe46b46806b21d5df2a8f34f0" title="Insere um novo usuário no banco de dados. " alt="" coords="184,5,360,32"/>
-<area shape="rect" id="node7" href="$classGerenteLogin.html#a5abe6312f068245a8757f46005f85faf" title="GerenteLogin::Credencia" alt="" coords="189,56,355,83"/>
-<area shape="rect" id="node8" href="$classSistemaLinf.html#a2b7a8bb723dfee53ce46e2ddfc170ad5" title="SistemaLinf::_NavegaConta" alt="" coords="408,107,595,133"/>
-<area shape="rect" id="node3" href="$classGerenteLogin.html#a94bdb9e213ffdc0aa3219dad300801cb" title="GerenteLogin::NovoUsuario" alt="" coords="410,5,593,32"/>
-<area shape="rect" id="node4" href="$classSistemaLinf.html#aaeba3f1f325e36dfc8718e1e5eee5e86" title="SistemaLinf::_EfetuaLogin" alt="" coords="643,56,817,83"/>
-<area shape="rect" id="node5" href="$classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execução dos sistema. " alt="" coords="865,81,988,108"/>
-<area shape="rect" id="node6" href="$Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1036,81,1087,108"/>
+<area shape="rect" id="node2" href="$classGerenteBD.html#a63f7f9bfe46b46806b21d5df2a8f34f0" title="Insere um novo usuÃ¡rio no banco de dados. " alt="" coords="184,5,360,32"/>
+<area shape="rect" id="node7" href="$classGerenteLogin.html#a5abe6312f068245a8757f46005f85faf" title="Gera a instÃ¢ncia do usuÃ¡rio que navega no sistema. " alt="" coords="189,56,355,83"/>
+<area shape="rect" id="node8" href="$classSistemaLinf.html#a8a6ab1c1b404f58739b2c99ef6ae95d2" title="SistemaLinf::_Cabecalho" alt="" coords="188,132,356,159"/>
+<area shape="rect" id="node3" href="$classGerenteLogin.html#a94bdb9e213ffdc0aa3219dad300801cb" title="GerenteLogin::NovoUsuario" alt="" coords="426,5,609,32"/>
+<area shape="rect" id="node4" href="$classSistemaLinf.html#aaeba3f1f325e36dfc8718e1e5eee5e86" title="SistemaLinf::_EfetuaLogin" alt="" coords="681,56,855,83"/>
+<area shape="rect" id="node5" href="$classSistemaLinf.html#abdde84e8ce18a7be36ea9546cf7ff5ed" title="Ambiente de execuÃ§Ã£o dos sistema. " alt="" coords="909,81,1032,108"/>
+<area shape="rect" id="node6" href="$Main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1080,81,1131,108"/>
+<area shape="rect" id="node9" href="$classSistemaLinf.html#a2b7a8bb723dfee53ce46e2ddfc170ad5" title="SistemaLinf::_NavegaConta" alt="" coords="675,132,861,159"/>
+<area shape="rect" id="node10" href="$classSistemaLinf.html#a349a48f688ee38225cfbdd0c30484a03" title="SistemaLinf::_ReservaLaboratorio" alt="" coords="408,157,627,184"/>
+<area shape="rect" id="node11" href="$classSistemaLinf.html#a17d5c1f1114a1ed28e17775c134351eb" title="SistemaLinf::_EditaDados\lPessoais" alt="" coords="430,209,605,250"/>
 </map>

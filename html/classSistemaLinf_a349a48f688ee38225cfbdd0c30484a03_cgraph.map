@@ -1,0 +1,14 @@
+<map id="SistemaLinf::_ReservaLaboratorio" name="SistemaLinf::_ReservaLaboratorio">
+<area shape="rect" id="node2" href="$classSistemaLinf.html#a8a6ab1c1b404f58739b2c99ef6ae95d2" title="SistemaLinf::_Cabecalho" alt="" coords="291,56,459,83"/>
+<area shape="rect" id="node5" href="$classSistemaLinf.html#aa826b0cb1de2201bbb8ee2e9fcae7d48" title="SistemaLinf::_ImprimeReservas" alt="" coords="527,107,736,133"/>
+<area shape="rect" id="node6" href="$classGerenteBD.html#ac4a3132cc8f79fd3472358378c1cfe0c" title="GerenteBD::BuscaReserva" alt="" coords="541,157,722,184"/>
+<area shape="rect" id="node8" href="$classUsuario.html#a51b15e0008a5fa1d0da0da509aa1701e" title="Getter do atributo matricula. " alt="" coords="557,259,706,285"/>
+<area shape="rect" id="node9" href="$classSistemaLinf.html#a0414bcc2e81953f87acbb3ca80aab9ab" title="SistemaLinf::_ReservarLab" alt="" coords="285,208,465,235"/>
+<area shape="rect" id="node11" href="$classSistemaLinf.html#ac4312005ce0674d918f89b22836a92ee" title="SistemaLinf::_CancelarReserva" alt="" coords="272,309,479,336"/>
+<area shape="rect" id="node12" href="$classGerenteBD.html#a4ddc8a64d951a32cc19327ce99bdc1a8" title="GerenteBD::CommitReserva" alt="" coords="280,360,471,387"/>
+<area shape="rect" id="node13" href="$classSistemaLinf.html#a4bcddb736d984cad7feb2d0b16f91d34" title="SistemaLinf::_OpcaoInvalida" alt="" coords="281,411,470,437"/>
+<area shape="rect" id="node3" href="$classSistemaLinf.html#ae02bf5d72ed634c919512e8c80f8ca28" title="SistemaLinf::_LimpaTela" alt="" coords="548,5,715,32"/>
+<area shape="rect" id="node4" href="$classUsuario.html#a39534698541ca25dca335aa79ef6e42f" title="Getter do atributo nome. " alt="" coords="566,56,697,83"/>
+<area shape="rect" id="node7" href="$classGerenteBD.html#ad0207347ebe1fc29ebfd11cec64e5211" title="GerenteBD::DataComReserva" alt="" coords="784,183,984,209"/>
+<area shape="rect" id="node10" href="$classGerenteBD.html#a34f72b9c2114723a55c4582a73ce0afa" title="GerenteBD::InsereReserva" alt="" coords="541,208,721,235"/>
+</map>

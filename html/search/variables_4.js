@@ -13,7 +13,5 @@ var searchData=
   ['expanded_5fsql',['expanded_sql',['../structsqlite3__api__routines.html#a4bfc71a1304d1a5ade7dae8255f933a4',1,'sqlite3_api_routines']]],
   ['expired',['expired',['../structsqlite3__api__routines.html#aaf5ef34c7b325eefb8459224a5c926e8',1,'sqlite3_api_routines']]],
   ['extended_5ferrcode',['extended_errcode',['../structsqlite3__api__routines.html#a4dc19fae70a22f0bce829e7be36bea3a',1,'sqlite3_api_routines']]],
-  ['extended_5fresult_5fcodes',['extended_result_codes',['../structsqlite3__api__routines.html#afbe050a2c8ff2d13c27e8756e753cf86',1,'sqlite3_api_routines']]],
-  ['eyes_5fcascade',['eyes_cascade',['../reconhece_8cpp.html#ab1098de0662992fbc4c23e314074f4a2',1,'eyes_cascade():&#160;reconhece.cpp'],['../TiraFoto_8cpp.html#ab1098de0662992fbc4c23e314074f4a2',1,'eyes_cascade():&#160;TiraFoto.cpp']]],
-  ['eyes_5fcascade_5fname',['eyes_cascade_name',['../reconhece_8cpp.html#acb1d6eede229c96e8f22a4caf306e492',1,'eyes_cascade_name():&#160;reconhece.cpp'],['../TiraFoto_8cpp.html#acb1d6eede229c96e8f22a4caf306e492',1,'eyes_cascade_name():&#160;TiraFoto.cpp']]]
+  ['extended_5fresult_5fcodes',['extended_result_codes',['../structsqlite3__api__routines.html#afbe050a2c8ff2d13c27e8756e753cf86',1,'sqlite3_api_routines']]]
 ];

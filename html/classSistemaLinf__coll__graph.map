@@ -1,5 +1,5 @@
 <map id="SistemaLinf" name="SistemaLinf">
-<area shape="rect" id="node2" href="$classUsuario.html" title="Representa a instância do usuario que utiliza o sistema. " alt="" coords="5,322,121,517"/>
-<area shape="rect" id="node4" href="$classGerenteBD.html" title="{GerenteBD\n||+ GerenteBD()\l+ ~GerenteBD()\l+ AtualizaUsuario()\l+ RemoveUsuario()\l+ InsereUsuario()\l+ BuscaUsuario()\l+ ExisteUsuario()\l+ ChecaUsuario()\l}" alt="" coords="146,329,282,509"/>
-<area shape="rect" id="node7" href="$classGerenteLogin.html" title="GerenteLogin é aquela que credencia o usuário. " alt="" coords="307,315,444,524"/>
+<area shape="rect" id="node2" href="$classUsuario.html" title="Representa a instÃ¢ncia do usuario que utiliza o sistema. " alt="" coords="5,359,121,553"/>
+<area shape="rect" id="node4" href="$classGerenteBD.html" title="{GerenteBD\n|&#45; codigoReserva\l|+ GerenteBD()\l+ ~GerenteBD()\l+ AtualizaUsuario()\l+ RemoveUsuario()\l+ InsereUsuario()\l+ BuscaUsuario()\l+ ExisteUsuario()\l+ ChecaUsuario()\l+ InsereReserva()\l+ BuscaReserva()\l+ CancelaReserva()\l+ CommitReserva()\l+ DataComReserva()\l}" alt="" coords="165,329,311,583"/>
+<area shape="rect" id="node8" href="$classGerenteLogin.html" title="GerenteLogin Ã© aquela que credencia o usuÃ¡rio. " alt="" coords="335,366,514,546"/>
 </map>

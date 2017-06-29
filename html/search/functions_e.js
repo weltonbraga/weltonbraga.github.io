@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['_7egerentebd',['~GerenteBD',['../classGerenteBD.html#adeea4af90d8f017ba29ee49a4c987d80',1,'GerenteBD']]],
-  ['_7egerentelogin',['~GerenteLogin',['../classGerenteLogin.html#a34b2f33170f2d0da17f53c3549250c28',1,'GerenteLogin']]]
+  ['usuario',['Usuario',['../classUsuario.html#aa85a5371a098dfba5449140d9b8a472f',1,'Usuario::Usuario()'],['../classUsuario.html#aa796659f396af2d110f9c40d055569a3',1,'Usuario::Usuario(string matricula, string nome)'],['../classUsuario.html#adeb042c76355129f096ee480c858ab8d',1,'Usuario::Usuario(Usuario &amp;user)']]]
 ];
